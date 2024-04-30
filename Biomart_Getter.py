@@ -1,5 +1,6 @@
 from biomart import BiomartServer
 import csv
+import pandas as pd
 
 server = BiomartServer("http://www.ensembl.org/biomart")
 genes = server.datasets['hsapiens_gene_ensembl']
@@ -14,8 +15,6 @@ def getCSV(serv = "http://www.ensembl.org/biomart", dataset = 'hsapiens_gene_ens
     #        Genes111datasets.append(i)
     # print(len(Genes111datasets)) 229 
     #print(Genes111datasets)
-
-
 
 
     attributes = [
@@ -42,4 +41,19 @@ def write_csv(response):
 
 
 
-write_csv(getCSV())
+write_csv(getCSV(verbose = True))
+
+
+def filter_chromosome(csv_input, csv_output):
+
+    # Read the data from the CSV file
+    data = pd.read_csv(csv_input, delimiter='\t')
+    
+    # Filter the data to keep rows where 'Chromosome/scaffold name' is a digit or 'MT'
+    filtered_data = data[data['Chromosome/scaffold name'].apply(lambda x: str(x).isdigit() or str(x) == 'MT')]
+
+    # Write the filtered data to a new CSV file
+    filtered_data.to_csv(csv_output, index=False, sep='\t')
+
+
+filter_chromosome('ensembl_genes.csv', 'clean.csv')
