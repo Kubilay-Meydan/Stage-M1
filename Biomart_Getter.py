@@ -2,8 +2,6 @@ from biomart import BiomartServer
 import csv
 import pandas as pd
 
-server = BiomartServer("http://www.ensembl.org/biomart")
-genes = server.datasets['hsapiens_gene_ensembl']
 
 def getCSV(serv = "http://www.ensembl.org/biomart", dataset = 'hsapiens_gene_ensembl', verbose = False):
     server = BiomartServer(serv)
@@ -16,7 +14,6 @@ def getCSV(serv = "http://www.ensembl.org/biomart", dataset = 'hsapiens_gene_ens
     # print(len(Genes111datasets)) 229 
     #print(Genes111datasets)
 
-
     attributes = [
         'ensembl_gene_id',
         'chromosome_name',
@@ -27,21 +24,20 @@ def getCSV(serv = "http://www.ensembl.org/biomart", dataset = 'hsapiens_gene_ens
         'external_gene_name',
         'gene_biotype'
     ]
+
     response = genes.search({
         'attributes': attributes
     }, header=1)  # `header=1` to include the column headers
     return response
 
-def write_csv(response):
-    with open('ensembl_genes.csv', 'w', newline='') as csvfile:
+def write_csv(response, destination):
+    with open(destination, 'w', newline='') as csvfile:
         writer = csv.writer(csvfile, delimiter='\t')
         for line in response.iter_lines():
             decoded_line = line.decode('utf-8')
             writer.writerow(decoded_line.split("\t"))
 
-
-
-write_csv(getCSV(verbose = True))
+#write_csv(getCSV(verbose = True))
 
 
 def filter_chromosome(csv_input, csv_output):
@@ -56,4 +52,4 @@ def filter_chromosome(csv_input, csv_output):
     filtered_data.to_csv(csv_output, index=False, sep='\t')
 
 
-filter_chromosome('ensembl_genes.csv', 'clean.csv')
+#filter_chromosome('ensembl_genes.csv', 'clean.csv')

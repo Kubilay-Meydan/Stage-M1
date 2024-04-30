@@ -1,0 +1,10 @@
+Gene stable ID	Chromosome/scaffold name	Gene start (bp)	Gene end (bp)	Strand	Gene description	Gene name	Gene type	Gene stable ID	Chromosome/scaffold name	Gene start (bp)	Gene end (bp)	Strand	Gene description	Gene name	Gene type	distance
+ENSPPRG00000000007	MT	4660	4728	1			Mt_tRNA	ENSPPRG00000000008	MT	4726	4799	-1			Mt_tRNA	2
+ENSPPRG00000000008	MT	4726	4799	-1			Mt_tRNA	ENSPPRG00000000009	MT	4801	4869	1			Mt_tRNA	2
+ENSPPRG00000000011	MT	5912	5980	1			Mt_tRNA	ENSPPRG00000000012	MT	5997	6065	-1			Mt_tRNA	17
+ENSPPRG00000000015	MT	6238	6303	-1			Mt_tRNA	ENSPPRG00000000016	MT	6305	7849	1	cytochrome c oxidase subunit I [Source:NCBI gene (formerly Entrezgene);Acc:6262371]	COX1	protein_coding	2
+ENSPPRG00000000016	MT	6305	7849	1	cytochrome c oxidase subunit I [Source:NCBI gene (formerly Entrezgene);Acc:6262371]	COX1	protein_coding	ENSPPRG00000000017	MT	7847	7915	-1			Mt_tRNA	2
+ENSPPRG00000000017	MT	7847	7915	-1			Mt_tRNA	ENSPPRG00000000018	MT	7922	7990	1			Mt_tRNA	7
+ENSPPRG00000000032	MT	12723	14543	1	NADH dehydrogenase subunit 5 [Source:NCBI gene (formerly Entrezgene);Acc:6262381]	ND5	protein_coding	ENSPPRG00000000033	MT	14527	15054	-1	NADH dehydrogenase subunit 6 [Source:NCBI gene (formerly Entrezgene);Acc:6262380]	ND6	protein_coding	16
+ENSPPRG00000000034	MT	15055	15123	-1			Mt_tRNA	ENSPPRG00000000035	MT	15127	16266	1	cytochrome b [Source:NCBI gene (formerly Entrezgene);Acc:6262383]	CYTB	protein_coding	4
+ENSPPRG00000000036	MT	16271	16340	1			Mt_tRNA	ENSPPRG00000000037	MT	16337	16403	-1			Mt_tRNA	3

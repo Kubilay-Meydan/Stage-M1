@@ -1,0 +1,10 @@
+Gene stable ID	Chromosome/scaffold name	Gene start (bp)	Gene end (bp)	Strand	Gene description	Gene name	Gene type	Gene stable ID	Chromosome/scaffold name	Gene start (bp)	Gene end (bp)	Strand	Gene description	Gene name	Gene type	distance
+ENSMAUG00000000007	MT	3694	3762	1			Mt_tRNA	ENSMAUG00000000008	MT	3760	3830	-1			Mt_tRNA	2
+ENSMAUG00000000008	MT	3760	3830	-1			Mt_tRNA	ENSMAUG00000000009	MT	3833	3901	1			Mt_tRNA	3
+ENSMAUG00000000011	MT	4935	5000	1			Mt_tRNA	ENSMAUG00000000012	MT	5003	5071	-1			Mt_tRNA	3
+ENSMAUG00000000015	MT	5241	5308	-1			Mt_tRNA	ENSMAUG00000000016	MT	5310	6854	1	cytochrome c oxidase subunit I [Source:NCBI gene;Acc:8457925]	COX1	protein_coding	2
+ENSMAUG00000000016	MT	5310	6854	1	cytochrome c oxidase subunit I [Source:NCBI gene;Acc:8457925]	COX1	protein_coding	ENSMAUG00000000017	MT	6856	6924	-1			Mt_tRNA	2
+ENSMAUG00000000017	MT	6856	6924	-1			Mt_tRNA	ENSMAUG00000000018	MT	6928	6995	1			Mt_tRNA	4
+ENSMAUG00000000032	MT	11723	13543	1	NADH dehydrogenase subunit 5 [Source:NCBI gene;Acc:8457933]	ND5	protein_coding	ENSMAUG00000000033	MT	13527	14051	-1	NADH dehydrogenase subunit 6 [Source:NCBI gene;Acc:8457934]	ND6	protein_coding	16
+ENSMAUG00000000034	MT	14052	14120	-1			Mt_tRNA	ENSMAUG00000000035	MT	14125	15265	1	cytochrome b [Source:NCBI gene;Acc:8457935]	CYTB	protein_coding	5
+ENSMAUG00000000036	MT	15266	15332	1			Mt_tRNA	ENSMAUG00000000037	MT	15333	15399	-1			Mt_tRNA	1

@@ -46,4 +46,4 @@ def find_potential_close_BIPs(csv_input, csv_output):
 
 
 
-find_potential_close_BIPs("clean.csv", "bip.csv")
+#find_potential_close_BIPs("clean.csv", "bip.csv")
