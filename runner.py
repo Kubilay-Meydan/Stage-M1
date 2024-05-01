@@ -37,16 +37,13 @@ for dataset in genes_datasets:
 # Iterate over all CSV files in the results directory
 for filename in os.listdir(results_dir):
     if filename.endswith(""):
+        if os.path.exists("results/BIPS/" + "BIP-" + filename):
 
-
-        # Check if the file is not just a header by reading it into a DataFrame
-
-
-            # Check if the DataFrame is empty (i.e., no data beyond headers)
+            print(f"File {results_path} BIP already exists. Skipping...")
+        else:
 
             # Assuming you have a corresponding BIP filename convention or logic
             bip_filename = "BIP-" + filename  # Update this line as needed based on actual BIP filename logic
 
                 # Run the finder function
             finder.find_potential_close_BIPs("results/"+filename, os.path.join(results_dir,"BIPS/" + bip_filename))
-
