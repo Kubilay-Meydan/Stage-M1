@@ -42,13 +42,10 @@ write_csv(getCSV(dataset= "abrachyrhynchus_gene_ensembl",verbose = True),"abrach
 
 def filter_chromosome(csv_input, csv_output):
 
-    # Read the data from the CSV file
     data = pd.read_csv(csv_input, delimiter='\t')
-    
-    # Filter the data to keep rows where 'Chromosome/scaffold name' is a digit or 'MT'
+
     filtered_data = data[data['Chromosome/scaffold name'].apply(lambda x: str(x).isdigit() or str(x) == 'MT')]
 
-    # Write the filtered data to a new CSV file
     filtered_data.to_csv(csv_output, index=False, sep='\t')
 
 
