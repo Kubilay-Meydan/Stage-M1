@@ -37,7 +37,7 @@ def write_csv(response, destination):
             decoded_line = line.decode('utf-8')
             writer.writerow(decoded_line.split("\t"))
 
-#write_csv(getCSV(verbose = True))
+write_csv(getCSV(dataset= "abrachyrhynchus_gene_ensembl",verbose = True),"abrachyrhynchus_gene_ensembl")
 
 
 def filter_chromosome(csv_input, csv_output):
@@ -52,4 +52,4 @@ def filter_chromosome(csv_input, csv_output):
     filtered_data.to_csv(csv_output, index=False, sep='\t')
 
 
-#filter_chromosome('ensembl_genes.csv', 'clean.csv')
+filter_chromosome("abrachyrhynchus_gene_ensembl", 'clean.csv')
