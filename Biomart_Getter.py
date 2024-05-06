@@ -7,13 +7,13 @@ def getCSV(serv = "http://www.ensembl.org/biomart", dataset = 'hsapiens_gene_ens
     server = BiomartServer(serv)
     genes = server.datasets[dataset]
     server.verbose = verbose 
-    #Genes111datasets = []
-    #for i in server.datasets:
-    #    if i.endswith("gene_ensembl"):
-    #        Genes111datasets.append(i)
-    # print(len(Genes111datasets)) 229 
-    #print(Genes111datasets)
-
+    Genes111datasets = []
+    for i in server.datasets:
+        if i.endswith("gene_ensembl"):
+            Genes111datasets.append(i)
+    print(len(Genes111datasets)) #229 
+    print(server.datasets["hsapiens_gene_ensembl"])
+'''
     attributes = [
         'ensembl_gene_id',
         'chromosome_name',
@@ -36,9 +36,9 @@ def write_csv(response, destination):
         for line in response.iter_lines():
             decoded_line = line.decode('utf-8')
             writer.writerow(decoded_line.split("\t"))
-
-write_csv(getCSV(dataset= "abrachyrhynchus_gene_ensembl",verbose = True),"abrachyrhynchus_gene_ensembl")
-
+'''
+getCSV(dataset= "abrachyrhynchus_gene_ensembl",verbose = True)
+'''
 
 def filter_chromosome(csv_input, csv_output):
 
@@ -49,4 +49,5 @@ def filter_chromosome(csv_input, csv_output):
     filtered_data.to_csv(csv_output, index=False, sep='\t')
 
 
-filter_chromosome("abrachyrhynchus_gene_ensembl", 'clean.csv')
+#filter_chromosome("abrachyrhynchus_gene_ensembl", 'clean.csv')
+'''
