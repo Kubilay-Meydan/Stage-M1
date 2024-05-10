@@ -13,7 +13,7 @@ def getCSV(serv = "http://www.ensembl.org/biomart", dataset = 'hsapiens_gene_ens
             Genes111datasets.append(i)
     print(len(Genes111datasets)) #229 
     print(server.datasets["hsapiens_gene_ensembl"])
-'''
+
     attributes = [
         'ensembl_gene_id',
         'chromosome_name',
@@ -36,9 +36,9 @@ def write_csv(response, destination):
         for line in response.iter_lines():
             decoded_line = line.decode('utf-8')
             writer.writerow(decoded_line.split("\t"))
-'''
+
 getCSV(dataset= "abrachyrhynchus_gene_ensembl",verbose = True)
-'''
+
 
 def filter_chromosome(csv_input, csv_output):
 
@@ -50,4 +50,3 @@ def filter_chromosome(csv_input, csv_output):
 
 
 #filter_chromosome("abrachyrhynchus_gene_ensembl", 'clean.csv')
-'''
