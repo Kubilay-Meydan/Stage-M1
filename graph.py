@@ -54,7 +54,7 @@ def histogramme_ratio():
 
 def create_gene_type_pie_charts():
     bips_files_folder = "results/BIPS"
-    output_folder = "figures/histogramme_type_gene_BIPs"
+    output_folder = "figures/diagrammes_circulaires_Type_BIPS"
     mapping_csv_path = "summary+phylo.csv"
 
     # Créer le dossier de sortie s'il n'existe pas
@@ -116,7 +116,7 @@ def create_gene_type_pie_charts():
 def create_chromosome_histograms():
     complete_files_folder = "results"
     bips_files_folder = "results/BIPS"
-    output_folder = "figures/histogramme_BIPs_par_chromosome"
+    output_folder = "figures/histogrammes_genes_et_BIPs_par_chromosome"
     mapping_csv_path = "summary+phylo.csv"
 
     # Créer le dossier de sortie s'il n'existe pas
@@ -181,7 +181,6 @@ def create_chromosome_histograms():
         plt.savefig(output_path, bbox_inches='tight')
         plt.close()
 
-
 def create_distance_histograms():
     bips_files_folder = "results/BIPS"
     output_folder = "figures/histogrammes_taille_BIPs"
@@ -219,7 +218,7 @@ def create_distance_histograms():
         plt.savefig(output_path, bbox_inches='tight')
         plt.close()
 
-#create_distance_histograms()
-#histogramme_ratio()
-#create_gene_type_pie_charts()
+create_distance_histograms()
+histogramme_ratio()
+create_gene_type_pie_charts()
 create_chromosome_histograms()
