@@ -3,6 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Couleurs pour les camemberts
+
 pie_chart_colors = [
     "#BF7BA7ff",  # magenta-ciel
     "#F5C9C2ff",  # rose-thé
@@ -75,10 +76,24 @@ def create_gene_type_pie_charts():
         # Obtenir le nom de l'espèce à partir du dictionnaire de correspondance
         species_name = mapping_dict.get(bip_id, bip_file)  # Valeur par défaut au bip_file si non trouvé
 
-        # Obtenir les colonnes de type de gène
-        gene_combinations = bip_df[['Gene type', 'Gene type']].apply(tuple, axis=1).value_counts()
+        # Obtenir les colonnes de types de gènes (colonne 8 et colonne 16)
+        gene_type1 = bip_df.iloc[:, 7]  # 8ème colonne (index 7)
+        gene_type2 = bip_df.iloc[:, 15] # 16ème colonne (index 15)
 
-        labels = [f'{combo[0]} & {combo[1]}' for combo in gene_combinations.index]
+        # Classifier les combinaisons de types de gènes
+        def classify_gene_type(type1, type2):
+            if type1 == 'protein_coding' and type2 == 'protein_coding':
+                return 'protein_coding & protein_coding'
+            elif type1 == 'protein_coding' or type2 == 'protein_coding':
+                return 'protein_coding & other'
+            else:
+                return 'other & other'
+
+        # Appliquer la classification
+        gene_combinations = [classify_gene_type(type1, type2) for type1, type2 in zip(gene_type1, gene_type2)]
+        gene_combinations = pd.Series(gene_combinations).value_counts()
+
+        labels = gene_combinations.index
         sizes = gene_combinations.values
         total = sum(sizes)
         percentages = [f'{size/total*100:.1f}%' for size in sizes]
@@ -91,7 +106,7 @@ def create_gene_type_pie_charts():
         plt.axis('equal')  # Le rapport d'aspect égal assure que le camembert est dessiné en cercle.
 
         # Ajouter une légende ancrée dans le coin droit
-        plt.legend(wedges, legend_labels, title="Combinaisons de Types de gènes", loc="upper left", bbox_to_anchor=(0.6, 0.6), fontsize='small')
+        plt.legend(wedges, legend_labels, title="Combinaisons de Types de gènes", loc="upper left", bbox_to_anchor=(0.6, 0.5), fontsize='medium')
 
         # Enregistrer le camembert en tant que fichier PNG
         output_path = os.path.join(output_folder, f'{species_name}_gene_type_pie_chart.png')
@@ -99,6 +114,7 @@ def create_gene_type_pie_charts():
         plt.close()
 
 def create_chromosome_histograms():
+    complete_files_folder = "results"
     bips_files_folder = "results/BIPS"
     output_folder = "figures/histogramme_BIPs_par_chromosome"
     mapping_csv_path = "summary+phylo.csv"
@@ -115,6 +131,10 @@ def create_chromosome_histograms():
     bips_files = [f for f in os.listdir(bips_files_folder) if f.startswith('BIP-')]
     for bip_file in bips_files:
         bip_df = pd.read_csv(os.path.join(bips_files_folder, bip_file), sep='\t')
+        
+        # Trouver le fichier complet correspondant
+        complete_file = bip_file[4:]
+        complete_df = pd.read_csv(os.path.join(complete_files_folder, complete_file), sep='\t')
 
         # Obtenir l'ID du nom de fichier BIP
         bip_id = bip_file.split('_')[0][4:]  # Extraire le 'x' de 'BIP-x_...'
@@ -122,26 +142,45 @@ def create_chromosome_histograms():
         # Obtenir le nom de l'espèce à partir du dictionnaire de correspondance
         species_name = mapping_dict.get(bip_id, bip_file)  # Valeur par défaut au bip_file si non trouvé
 
-        # Compter les occurrences de chaque nom de chromosome/échafaudage et les trier par nombre
-        chromosome_counts = bip_df['Chromosome/scaffold name'].value_counts().sort_values(ascending=False)
+        # Compter les occurrences de chaque nom de chromosome/échafaudage dans BIP et Complete files
+        bip_chromosome_counts = bip_df['Chromosome/scaffold name'].value_counts()
+        complete_chromosome_counts = complete_df['Chromosome/scaffold name'].value_counts()
 
-        plt.figure(figsize=(10, 8))
+        # Obtenir une liste unique de chromosomes/échafaudages
+        all_chromosomes = list(set(bip_chromosome_counts.index).union(set(complete_chromosome_counts.index)))
+        all_chromosomes.sort()
 
-        # Tracer les barres avec des positions spécifiques
-        positions = range(len(chromosome_counts))
-        plt.bar(positions, chromosome_counts.values, color=pie_chart_colors[:len(chromosome_counts)])
+        bip_counts = bip_chromosome_counts.reindex(all_chromosomes, fill_value=0)
+        complete_counts = complete_chromosome_counts.reindex(all_chromosomes, fill_value=0)
+
+        x = range(len(all_chromosomes))  # Positions des barres
+
+        plt.figure(figsize=(15, 8))
+
+        # Largeur de chaque barre
+        bar_width = 0.4
+
+        # Tracer les barres pour les BIP files
+        plt.bar(x, bip_counts.values, width=bar_width, color="#BF7BA7ff", label='Nombre de BIPs')
+
+        # Tracer les barres pour les Complete files, décalées de bar_width
+        plt.bar([p + bar_width for p in x], complete_counts.values, width=bar_width, color="#ABBCE1ff", label='Nombre de gènes')
 
         # Définir les étiquettes des x-ticks et leurs positions
-        plt.xticks(positions, chromosome_counts.index, rotation=90, ha='center')
+        plt.xticks([p + bar_width / 2 for p in x], all_chromosomes, rotation=90, ha='center')
 
         plt.xlabel('Chromosome')
-        plt.ylabel('Nombre de BIPs')
-        plt.title(f'Nombre de BIPs par chromosome chez {species_name}')
+        plt.ylabel('Nombre de BIPs / Genes')
+        plt.title(f'Nombre de BIPs et Genes par chromosome chez {species_name}')
+
+        # Ajouter la légende
+        plt.legend()
 
         # Enregistrer l'histogramme en tant que fichier PNG
         output_path = os.path.join(output_folder, f'{species_name}_chromosome_histogram.png')
         plt.savefig(output_path, bbox_inches='tight')
         plt.close()
+
 
 def create_distance_histograms():
     bips_files_folder = "results/BIPS"
@@ -180,7 +219,7 @@ def create_distance_histograms():
         plt.savefig(output_path, bbox_inches='tight')
         plt.close()
 
-create_distance_histograms()
-histogramme_ratio()
-create_gene_type_pie_charts()
+#create_distance_histograms()
+#histogramme_ratio()
+#create_gene_type_pie_charts()
 create_chromosome_histograms()
