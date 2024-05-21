@@ -1,6 +1,7 @@
 import os
 import pandas as pd
 import matplotlib.pyplot as plt
+import re
 
 # Couleurs pour les camemberts
 
@@ -113,6 +114,18 @@ def create_gene_type_pie_charts():
         plt.savefig(output_path)
         plt.close()
 
+
+def natural_sort_key(s):
+    """ Sorts strings with numeric parts in a way that humans expect.
+    Non-numeric strings (like 'MT', 'X', 'Y') are sorted after numeric ones.
+    """
+    if isinstance(s, int):  # Direct integers case
+        return (0, s)
+    elif s.isdigit():  # Numeric strings case
+        return (0, int(s))
+    else:  # Non-numeric strings
+        return (1, s.lower())
+
 def create_chromosome_histograms():
     complete_files_folder = "results"
     bips_files_folder = "results/BIPS"
@@ -146,9 +159,9 @@ def create_chromosome_histograms():
         bip_chromosome_counts = bip_df['Chromosome/scaffold name'].value_counts()
         complete_chromosome_counts = complete_df['Chromosome/scaffold name'].value_counts()
 
-        # Obtenir une liste unique de chromosomes/échafaudages
-        all_chromosomes = list(set(bip_chromosome_counts.index).union(set(complete_chromosome_counts.index)))
-        all_chromosomes.sort()
+        # Utiliser uniquement les chromosomes/échafaudages du complete file
+        all_chromosomes = complete_chromosome_counts.index.tolist()
+        all_chromosomes.sort(key=natural_sort_key)
 
         bip_counts = bip_chromosome_counts.reindex(all_chromosomes, fill_value=0)
         complete_counts = complete_chromosome_counts.reindex(all_chromosomes, fill_value=0)
@@ -218,7 +231,7 @@ def create_distance_histograms():
         plt.savefig(output_path, bbox_inches='tight')
         plt.close()
 
-create_distance_histograms()
-histogramme_ratio()
-create_gene_type_pie_charts()
+#create_distance_histograms()
+#histogramme_ratio()
+#create_gene_type_pie_charts()
 create_chromosome_histograms()
