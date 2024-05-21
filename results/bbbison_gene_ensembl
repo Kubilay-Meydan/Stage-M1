@@ -19,7 +19,7 @@ ENSBBBG00000000018	MT	7228	7300	-1			Mt_tRNA
 ENSBBBG00000000019	MT	7305	7373	1			Mt_tRNA
 ENSBBBG00000000020	MT	7375	8058	1	mitochondrially encoded cytochrome c oxidase II [Source:HGNC Symbol;Acc:HGNC:7421]	MT-CO2	protein_coding
 ENSBBBG00000000021	MT	8062	8128	1			Mt_tRNA
-ENSBBBG00000000022	MT	8130	8330	1	mitochondrially encoded ATP synthase membrane subunit 8 [Source:HGNC Symbol;Acc:HGNC:7415]	MT-ATP8	protein_coding
+ENSBBBG00000000022	MT	8130	8330	1	mitochondrially encoded ATP synthase membrane subunit 8 [Source:HGNC Symbol;Acc:HGNC:7415]		protein_coding
 ENSBBBG00000000023	MT	8291	8971	1			protein_coding
 ENSBBBG00000000024	MT	8971	9751	1	mitochondrially encoded cytochrome c oxidase III [Source:HGNC Symbol;Acc:HGNC:7422]	MT-CO3	protein_coding
 ENSBBBG00000000025	MT	9755	9823	1			Mt_tRNA

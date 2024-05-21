@@ -38,4 +38,4 @@ for filename in os.listdir(results_dir):
         else:
 
             bip_filename = "BIP-" + filename
-            finder.find_potential_close_BIPs("results/"+filename, os.path.join(results_dir,"BIPS/" + bip_filename))
+            finder.find_potential_close_BIPs("results2/"+filename, os.path.join(results_dir,"BIPS/" + bip_filename))

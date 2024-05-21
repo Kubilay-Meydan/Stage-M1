@@ -164,7 +164,7 @@ ENSCPBG00000000374	3	24119154	24156084	1	WD repeat domain 43 [Source:HGNC Symbol
 ENSCPBG00000000378	2	33115211	33116497	-1			protein_coding
 ENSCPBG00000000386	3	24135151	24135228	1			snoRNA
 ENSCPBG00000000387	1	57766757	57812231	-1	NIMA related kinase 5 [Source:HGNC Symbol;Acc:HGNC:7748]	NEK5	protein_coding
-ENSCPBG00000000388	3	24139447	24139530	1	small nucleolar RNA, C/D box 92 [Source:HGNC Symbol;Acc:HGNC:32754]		snoRNA
+ENSCPBG00000000388	3	24139447	24139530	1	small nucleolar RNA, C/D box 92 [Source:HGNC Symbol;Acc:HGNC:32754]	SNORD92	snoRNA
 ENSCPBG00000000389	2	33980669	33980832	-1	U1 spliceosomal RNA [Source:RFAM;Acc:RF00003]	U1	snRNA
 ENSCPBG00000000391	3	24140633	24140712	1			snoRNA
 ENSCPBG00000000397	3	24144620	24144697	1	small nucleolar RNA, C/D box 53 [Source:HGNC Symbol;Acc:HGNC:10203]		snoRNA
@@ -222,7 +222,7 @@ ENSCPBG00000000758	8	37790972	37791086	1	5S ribosomal RNA [Source:RFAM;Acc:RF000
 ENSCPBG00000000770	1	58635065	58722921	-1	component of oligomeric golgi complex 6 [Source:HGNC Symbol;Acc:HGNC:18621]	COG6	protein_coding
 ENSCPBG00000000771	1	13559739	13741488	-1	calcium sensing receptor [Source:HGNC Symbol;Acc:HGNC:1514]	CASR	protein_coding
 ENSCPBG00000000781	1	13705573	13705751	1			misc_RNA
-ENSCPBG00000000797	1	58752484	58958966	1	LHFPL tetraspan subfamily member 6 [Source:HGNC Symbol;Acc:HGNC:6586]	LHFPL6	protein_coding
+ENSCPBG00000000797	1	58752484	58958966	1	LHFPL tetraspan subfamily member 6 [Source:HGNC Symbol;Acc:HGNC:6586]		protein_coding
 ENSCPBG00000000822	1	13851881	14139353	1	mannosidase alpha class 1A member 2 [Source:HGNC Symbol;Acc:HGNC:6822]	MAN1A2	protein_coding
 ENSCPBG00000000823	8	37954032	38075662	-1	tubulin tyrosine ligase like 7 [Source:HGNC Symbol;Acc:HGNC:26242]	TTLL7	protein_coding
 ENSCPBG00000000833	2	35330321	35343944	-1	cyclin F [Source:HGNC Symbol;Acc:HGNC:1591]	CCNF	protein_coding
@@ -295,7 +295,7 @@ ENSCPBG00000001400	15	18641513	18643748	1	SS18 like 2 [Source:HGNC Symbol;Acc:HG
 ENSCPBG00000001413	8	40029003	40085510	1	interleukin 23 receptor [Source:HGNC Symbol;Acc:HGNC:19100]	IL23R	protein_coding
 ENSCPBG00000001426	1	15284784	15349943	-1	WD repeat domain 3 [Source:HGNC Symbol;Acc:HGNC:12755]	WDR3	protein_coding
 ENSCPBG00000001447	8	40086627	40089534	1			lncRNA
-ENSCPBG00000001453	8	40112495	40144402	1	interleukin 12 receptor subunit beta 2 [Source:HGNC Symbol;Acc:HGNC:5972]		protein_coding
+ENSCPBG00000001453	8	40112495	40144402	1	interleukin 12 receptor subunit beta 2 [Source:HGNC Symbol;Acc:HGNC:5972]	IL12RB2	protein_coding
 ENSCPBG00000001466	8	40157162	40184802	-1	SERPINE1 mRNA binding protein 1 [Source:HGNC Symbol;Acc:HGNC:17860]	SERBP1	protein_coding
 ENSCPBG00000001468	15	18648379	18700069	-1	KIAA0355 [Source:HGNC Symbol;Acc:HGNC:29016]	GARRE1	protein_coding
 ENSCPBG00000001472	1	15350037	15393485	1	ganglioside induced differentiation associated protein 2 [Source:HGNC Symbol;Acc:HGNC:18010]	GDAP2	protein_coding
@@ -511,7 +511,7 @@ ENSCPBG00000003111	1	21921605	21926144	-1			protein_coding
 ENSCPBG00000003124	1	22026036	22043128	-1	queuine tRNA-ribosyltransferase accessory subunit 2 [Source:HGNC Symbol;Acc:HGNC:25771]	QTRT2	protein_coding
 ENSCPBG00000003135	1	22047092	22068278	1	coiled-coil domain containing 191 [Source:HGNC Symbol;Acc:HGNC:29272]	CCDC191	protein_coding
 ENSCPBG00000003138	8	45597195	45955080	1	protein tyrosine phosphatase receptor type F [Source:HGNC Symbol;Acc:HGNC:9670]	PTPRF	protein_coding
-ENSCPBG00000003139	1	60999590	61057555	1	SPT20 homolog, SAGA complex component [Source:HGNC Symbol;Acc:HGNC:20596]	SUPT20H	protein_coding
+ENSCPBG00000003139	1	60999590	61057555	1	SPT20 homolog, SAGA complex component [Source:HGNC Symbol;Acc:HGNC:20596]		protein_coding
 ENSCPBG00000003143	6	60380382	60664115	1	actin binding LIM protein 1 [Source:HGNC Symbol;Acc:HGNC:78]	ABLIM1	protein_coding
 ENSCPBG00000003165	1	22081045	22136518	1	cilia and flagella associated protein 44 [Source:HGNC Symbol;Acc:HGNC:25631]	CFAP44	protein_coding
 ENSCPBG00000003168	1	61058664	61080619	-1	exosome component 8 [Source:HGNC Symbol;Acc:HGNC:17035]	EXOSC8	protein_coding
@@ -584,7 +584,7 @@ ENSCPBG00000003658	17	1574487	1616787	-1	protein phosphatase 2 regulatory subuni
 ENSCPBG00000003665	1	23015625	23027473	-1	basic leucine zipper nuclear factor 1 [Source:HGNC Symbol;Acc:HGNC:1065]	BLZF1	protein_coding
 ENSCPBG00000003669	1	64342988	64609938	-1	PDS5 cohesin associated factor B [Source:HGNC Symbol;Acc:HGNC:20418]	PDS5B	protein_coding
 ENSCPBG00000003681	1	23068869	23219598	1	NME/NM23 family member 7 [Source:HGNC Symbol;Acc:HGNC:20461]	NME7	protein_coding
-ENSCPBG00000003682	8	47110061	47434261	1	ring finger protein 220 [Source:HGNC Symbol;Acc:HGNC:25552]	RNF220	protein_coding
+ENSCPBG00000003682	8	47110061	47434261	1	ring finger protein 220 [Source:HGNC Symbol;Acc:HGNC:25552]		protein_coding
 ENSCPBG00000003701	1	23220114	23240561	-1	ATPase Na+/K+ transporting subunit beta 1 [Source:HGNC Symbol;Acc:HGNC:804]	ATP1B1	protein_coding
 ENSCPBG00000003712	17	1620615	1651495	1	peroxisomal biogenesis factor 6 [Source:HGNC Symbol;Acc:HGNC:8859]	PEX6	protein_coding
 ENSCPBG00000003717	1	23305277	23305489	1			protein_coding
@@ -592,7 +592,7 @@ ENSCPBG00000003720	1	23434496	23434634	-1			misc_RNA
 ENSCPBG00000003727	1	64375789	64375887	-1	5S ribosomal RNA [Source:RFAM;Acc:RF00001]	5S_rRNA	rRNA
 ENSCPBG00000003729	1	23437420	23462722	1			lncRNA
 ENSCPBG00000003730	6	60753114	60753834	1			protein_coding
-ENSCPBG00000003734	1	64631970	64670966	1	NEDD4 binding protein 2 like 2 [Source:HGNC Symbol;Acc:HGNC:26916]		protein_coding
+ENSCPBG00000003734	1	64631970	64670966	1	NEDD4 binding protein 2 like 2 [Source:HGNC Symbol;Acc:HGNC:26916]	N4BP2L2	protein_coding
 ENSCPBG00000003735	1	23463648	23492395	1	dermatopontin [Source:HGNC Symbol;Acc:HGNC:3011]	DPT	protein_coding
 ENSCPBG00000003737	6	60814628	60819587	-1			protein_coding
 ENSCPBG00000003741	8	47462256	47469494	-1	transmembrane protein 53 [Source:HGNC Symbol;Acc:HGNC:26186]	TMEM53	protein_coding
@@ -950,7 +950,7 @@ ENSCPBG00000006181	1	37419017	37437422	-1	ADP-ribosylarginine hydrolase [Source:
 ENSCPBG00000006183	10	2920930	2929405	-1			lncRNA
 ENSCPBG00000006185	10	2929576	2935973	-1			lncRNA
 ENSCPBG00000006187	1	37459583	37460730	1			pseudogene
-ENSCPBG00000006188	10	2939287	2948636	-1	ribosomal protein S17 [Source:HGNC Symbol;Acc:HGNC:10397]	RPS17	protein_coding
+ENSCPBG00000006188	10	2939287	2948636	-1	ribosomal protein S17 [Source:HGNC Symbol;Acc:HGNC:10397]		protein_coding
 ENSCPBG00000006190	10	2944124	2944258	-1	Small nucleolar RNA SNORA71 [Source:RFAM;Acc:RF00056]	SNORA71	snoRNA
 ENSCPBG00000006194	1	37511423	37536714	1			protein_coding
 ENSCPBG00000006196	10	2945538	2945671	-1	Small nucleolar RNA SNORA71 [Source:RFAM;Acc:RF00056]	SNORA71	snoRNA
@@ -982,7 +982,7 @@ ENSCPBG00000006363	10	4389720	4421823	-1	hexosaminidase subunit alpha [Source:HG
 ENSCPBG00000006369	10	4488062	4625065	1	ariadne RBR E3 ubiquitin protein ligase 1 [Source:HGNC Symbol;Acc:HGNC:689]	ARIH1	protein_coding
 ENSCPBG00000006376	10	4632638	4802308	1	Bardet-Biedl syndrome 4 [Source:HGNC Symbol;Acc:HGNC:969]	BBS4	protein_coding
 ENSCPBG00000006389	10	4740117	4793782	-1	ADP dependent glucokinase [Source:HGNC Symbol;Acc:HGNC:25250]	ADPGK	protein_coding
-ENSCPBG00000006407	10	5170310	5425508	1	neogenin 1 [Source:HGNC Symbol;Acc:HGNC:7754]		protein_coding
+ENSCPBG00000006407	10	5170310	5425508	1	neogenin 1 [Source:HGNC Symbol;Acc:HGNC:7754]	NEO1	protein_coding
 ENSCPBG00000006539	2	40907589	40914203	-1	steroidogenic acute regulatory protein [Source:HGNC Symbol;Acc:HGNC:11359]	STAR	protein_coding
 ENSCPBG00000006554	2	40931579	41000692	-1			protein_coding
 ENSCPBG00000006569	2	41005339	41013686	-1	LSM1 homolog, mRNA degradation associated [Source:HGNC Symbol;Acc:HGNC:20472]	LSM1	protein_coding
@@ -1158,7 +1158,7 @@ ENSCPBG00000008099	1	52773596	52773730	-1			snoRNA
 ENSCPBG00000008104	1	52774579	52779462	-1			protein_coding
 ENSCPBG00000008107	6	2132427	2193690	-1	neurotrophin 3 [Source:HGNC Symbol;Acc:HGNC:8023]	NTF3	protein_coding
 ENSCPBG00000008110	6	2604122	2623406	-1			lncRNA
-ENSCPBG00000008111	1	52774876	52775007	-1	small nucleolar RNA, H/ACA box 31 [Source:HGNC Symbol;Acc:HGNC:32621]		snoRNA
+ENSCPBG00000008111	1	52774876	52775007	-1	small nucleolar RNA, H/ACA box 31 [Source:HGNC Symbol;Acc:HGNC:32621]	SNORA31	snoRNA
 ENSCPBG00000008115	6	2623423	2624651	1			protein_coding
 ENSCPBG00000008116	1	52816034	52833054	1	solute carrier family 25 member 30 [Source:HGNC Symbol;Acc:HGNC:27371]	SLC25A30	protein_coding
 ENSCPBG00000008123	2	49359165	49395332	-1			protein_coding
@@ -1265,7 +1265,7 @@ ENSCPBG00000008693	10	6497409	6501804	-1			protein_coding
 ENSCPBG00000008697	8	2052126	2172515	-1	transient receptor potential cation channel subfamily C member 7 [Source:HGNC Symbol;Acc:HGNC:20754]	TRPC7	protein_coding
 ENSCPBG00000008699	10	6537613	6560754	-1			protein_coding
 ENSCPBG00000008702	10	6568625	6572886	-1			protein_coding
-ENSCPBG00000008704	10	6580405	6616643	1	PML nuclear body scaffold [Source:HGNC Symbol;Acc:HGNC:9113]	PML	protein_coding
+ENSCPBG00000008704	10	6580405	6616643	1	PML nuclear body scaffold [Source:HGNC Symbol;Acc:HGNC:9113]		protein_coding
 ENSCPBG00000008710	10	6651959	6655159	1	immunoglobulin superfamily containing leucine rich repeat 2 [Source:HGNC Symbol;Acc:HGNC:29286]	ISLR2	protein_coding
 ENSCPBG00000008711	10	6678388	6681080	1	immunoglobulin superfamily containing leucine rich repeat [Source:HGNC Symbol;Acc:HGNC:6133]	ISLR	protein_coding
 ENSCPBG00000008715	1	56992172	57030014	-1			protein_coding
@@ -1295,7 +1295,7 @@ ENSCPBG00000008814	8	3006087	3023230	-1	NME/NM23 family member 5 [Source:HGNC Sy
 ENSCPBG00000008819	8	3034146	3040288	1	heterogeneous nuclear ribonucleoprotein A/B [Source:HGNC Symbol;Acc:HGNC:5034]	HNRNPAB	protein_coding
 ENSCPBG00000008828	8	3037976	3061172	-1	5-phosphohydroxy-L-lysine phospho-lyase [Source:HGNC Symbol;Acc:HGNC:28249]	PHYKPL	protein_coding
 ENSCPBG00000008839	1	57009103	57009267	1			misc_RNA
-ENSCPBG00000008848	1	57096063	57175383	1	family with sequence similarity 124 member A [Source:HGNC Symbol;Acc:HGNC:26413]	FAM124A	protein_coding
+ENSCPBG00000008848	1	57096063	57175383	1	family with sequence similarity 124 member A [Source:HGNC Symbol;Acc:HGNC:26413]		protein_coding
 ENSCPBG00000008852	8	3160639	3309157	-1			lncRNA
 ENSCPBG00000008856	8	3391450	3409227	-1			lncRNA
 ENSCPBG00000008860	8	3419806	3428828	-1	CDC like kinase 4 [Source:HGNC Symbol;Acc:HGNC:13659]	CLK4	protein_coding
@@ -1393,7 +1393,7 @@ ENSCPBG00000009578	4	4160168	4163609	-1	mitochondrial ribosomal protein L16 [Sou
 ENSCPBG00000009582	4	4167398	4175599	-1	cobalamin binding intrinsic factor [Source:HGNC Symbol;Acc:HGNC:4268]	CBLIF	protein_coding
 ENSCPBG00000009583	8	4823621	4823801	-1			misc_RNA
 ENSCPBG00000009588	8	4826645	4835023	1	sequestosome 1 [Source:HGNC Symbol;Acc:HGNC:11280]	SQSTM1	protein_coding
-ENSCPBG00000009592	8	4836562	4844364	-1	MRN complex interacting protein [Source:HGNC Symbol;Acc:HGNC:30817]	MRNIP	protein_coding
+ENSCPBG00000009592	8	4836562	4844364	-1	MRN complex interacting protein [Source:HGNC Symbol;Acc:HGNC:30817]		protein_coding
 ENSCPBG00000009594	4	4181023	4191133	-1	transcobalamin 1 [Source:HGNC Symbol;Acc:HGNC:11652]	TCN1	protein_coding
 ENSCPBG00000009597	4	4291967	4319882	1			lncRNA
 ENSCPBG00000009598	8	4847611	4887366	-1	TBC1 domain family member 9B [Source:HGNC Symbol;Acc:HGNC:29097]	TBC1D9B	protein_coding
@@ -1416,7 +1416,7 @@ ENSCPBG00000010073	4	4506654	4508638	-1			protein_coding
 ENSCPBG00000010077	8	5555662	5565214	-1	arylsulfatase family member I [Source:HGNC Symbol;Acc:HGNC:32521]	ARSI	protein_coding
 ENSCPBG00000010081	8	5601836	5633279	1			protein_coding
 ENSCPBG00000010082	8	5641256	5652719	-1	CD74 molecule [Source:HGNC Symbol;Acc:HGNC:1697]	CD74	protein_coding
-ENSCPBG00000010084	8	5658518	5667354	-1	ribosomal protein S14 [Source:HGNC Symbol;Acc:HGNC:10387]		protein_coding
+ENSCPBG00000010084	8	5658518	5667354	-1	ribosomal protein S14 [Source:HGNC Symbol;Acc:HGNC:10387]	RPS14	protein_coding
 ENSCPBG00000010085	4	4548986	4578811	1	UBX domain protein 4 [Source:HGNC Symbol;Acc:HGNC:14860]	UBXN4	protein_coding
 ENSCPBG00000010086	8	5722312	5740494	1	N-deacetylase and N-sulfotransferase 1 [Source:HGNC Symbol;Acc:HGNC:7680]	NDST1	protein_coding
 ENSCPBG00000010089	8	5805610	5853621	1	synaptopodin [Source:HGNC Symbol;Acc:HGNC:30672]	SYNPO	protein_coding
@@ -1457,7 +1457,7 @@ ENSCPBG00000010201	8	6411593	6415558	-1			protein_coding
 ENSCPBG00000010203	8	6443257	6462190	1	G3BP stress granule assembly factor 1 [Source:HGNC Symbol;Acc:HGNC:30292]	G3BP1	protein_coding
 ENSCPBG00000010204	4	7041342	7041508	-1			misc_RNA
 ENSCPBG00000010205	4	7059902	7060024	-1	5S ribosomal RNA [Source:RFAM;Acc:RF00001]	5S_rRNA	rRNA
-ENSCPBG00000010211	4	7479899	7716479	1	alpha-1,6-mannosylglycoprotein 6-beta-N-acetylglucosaminyltransferase [Source:HGNC Symbol;Acc:HGNC:7049]	MGAT5	protein_coding
+ENSCPBG00000010211	4	7479899	7716479	1	alpha-1,6-mannosylglycoprotein 6-beta-N-acetylglucosaminyltransferase [Source:HGNC Symbol;Acc:HGNC:7049]		protein_coding
 ENSCPBG00000010214	4	7740210	7903606	-1	transmembrane protein 163 [Source:HGNC Symbol;Acc:HGNC:25380]	TMEM163	protein_coding
 ENSCPBG00000010216	4	7915557	7915722	-1			misc_RNA
 ENSCPBG00000010217	4	7940065	7987663	1	aminocarboxymuconate semialdehyde decarboxylase [Source:HGNC Symbol;Acc:HGNC:19288]	ACMSD	protein_coding
@@ -1614,7 +1614,7 @@ ENSCPBG00000011906	15	1083751	1083911	1			misc_RNA
 ENSCPBG00000011913	15	1175892	1258824	-1	NLR family CARD domain containing 5 [Source:HGNC Symbol;Acc:HGNC:29933]	NLRC5	protein_coding
 ENSCPBG00000011916	3	26360127	26686588	1	CDC42 binding protein kinase alpha [Source:HGNC Symbol;Acc:HGNC:1737]	CDC42BPA	protein_coding
 ENSCPBG00000011921	15	1207161	1207330	-1			misc_RNA
-ENSCPBG00000011922	15	1268682	1284934	-1	cholesteryl ester transfer protein [Source:HGNC Symbol;Acc:HGNC:1869]	CETP	protein_coding
+ENSCPBG00000011922	15	1268682	1284934	-1	cholesteryl ester transfer protein [Source:HGNC Symbol;Acc:HGNC:1869]		protein_coding
 ENSCPBG00000011925	15	1295630	1309755	-1	homocysteine inducible ER protein with ubiquitin like domain 1 [Source:HGNC Symbol;Acc:HGNC:13744]	HERPUD1	protein_coding
 ENSCPBG00000011926	3	26646148	26646324	1			misc_RNA
 ENSCPBG00000011928	3	26673044	26673141	-1			misc_RNA
@@ -1643,19 +1643,19 @@ ENSCPBG00000011980	3	27559104	27574679	1	SDE2 telomere maintenance homolog [Sour
 ENSCPBG00000011981	3	27612294	27616444	-1			protein_coding
 ENSCPBG00000011982	15	1742986	1744844	-1			lncRNA
 ENSCPBG00000011983	3	27621104	27621217	1			misc_RNA
-ENSCPBG00000011985	15	1745746	2065121	-1	G protein subunit alpha o1 [Source:HGNC Symbol;Acc:HGNC:4389]		protein_coding
+ENSCPBG00000011985	15	1745746	2065121	-1	G protein subunit alpha o1 [Source:HGNC Symbol;Acc:HGNC:4389]	GNAO1	protein_coding
 ENSCPBG00000011987	15	2228248	2246662	-1			lncRNA
 ENSCPBG00000011988	3	27635341	27674527	1	transmembrane protein 63A [Source:HGNC Symbol;Acc:HGNC:29118]	TMEM63A	protein_coding
 ENSCPBG00000011989	15	2425986	2486243	1	core-binding factor subunit beta [Source:HGNC Symbol;Acc:HGNC:1539]	CBFB	protein_coding
-ENSCPBG00000011993	15	2552383	2605016	1	chromosome 16 open reading frame 70 [Source:HGNC Symbol;Acc:HGNC:29564]		protein_coding
+ENSCPBG00000011993	15	2552383	2605016	1	chromosome 16 open reading frame 70 [Source:HGNC Symbol;Acc:HGNC:29564]	PHAF1	protein_coding
 ENSCPBG00000011994	3	27660661	27660782	1	5S ribosomal RNA [Source:RFAM;Acc:RF00001]	5S_rRNA	rRNA
-ENSCPBG00000011996	3	27686901	27737629	-1	epoxide hydrolase 1 [Source:HGNC Symbol;Acc:HGNC:3401]		protein_coding
+ENSCPBG00000011996	3	27686901	27737629	-1	epoxide hydrolase 1 [Source:HGNC Symbol;Acc:HGNC:3401]	EPHX1	protein_coding
 ENSCPBG00000011997	3	27694796	27694971	1			misc_RNA
 ENSCPBG00000011999	3	27755167	27768359	-1	signal recognition particle 9 [Source:HGNC Symbol;Acc:HGNC:11304]	SRP9	protein_coding
 ENSCPBG00000012000	15	2618770	2620047	-1	UDP-GlcNAc:betaGal beta-1,3-N-acetylglucosaminyltransferase 9 [Source:HGNC Symbol;Acc:HGNC:28714]	B3GNT9	protein_coding
 ENSCPBG00000012003	15	2652747	2665339	-1	TNFRSF1A associated via death domain [Source:HGNC Symbol;Acc:HGNC:12030]	TRADD	protein_coding
 ENSCPBG00000012006	15	2686424	2690785	1	F-box and leucine rich repeat protein 8 [Source:HGNC Symbol;Acc:HGNC:17875]	FBXL8	protein_coding
-ENSCPBG00000012008	3	27930081	28008158	1	ENAH actin regulator [Source:HGNC Symbol;Acc:HGNC:18271]	ENAH	protein_coding
+ENSCPBG00000012008	3	27930081	28008158	1	ENAH actin regulator [Source:HGNC Symbol;Acc:HGNC:18271]		protein_coding
 ENSCPBG00000012009	15	2693938	2727999	1	heat shock transcription factor 4 [Source:HGNC Symbol;Acc:HGNC:5227]	HSF4	protein_coding
 ENSCPBG00000012013	15	2737286	2740408	-1			protein_coding
 ENSCPBG00000012015	3	28016381	28016486	1	5S ribosomal RNA [Source:RFAM;Acc:RF00001]	5S_rRNA	rRNA
@@ -1788,7 +1788,7 @@ ENSCPBG00000012521	3	32196991	32197170	-1			misc_RNA
 ENSCPBG00000012522	3	32313747	32380301	1			protein_coding
 ENSCPBG00000012523	4	18807694	18815858	-1			protein_coding
 ENSCPBG00000012524	3	32407032	32486363	-1			protein_coding
-ENSCPBG00000012525	4	18815879	19000344	-1			protein_coding
+ENSCPBG00000012525	4	18815879	19000344	-1	ankyrin repeat and BTB domain containing 2 [Source:HGNC Symbol;Acc:HGNC:23842]	ABTB2	protein_coding
 ENSCPBG00000012526	4	19049501	19096157	1	catalase [Source:HGNC Symbol;Acc:HGNC:1516]	CAT	protein_coding
 ENSCPBG00000012527	3	32508674	32742850	-1	afadin, adherens junction formation factor [Source:HGNC Symbol;Acc:HGNC:7137]	AFDN	protein_coding
 ENSCPBG00000012528	4	19108709	19124556	-1	E74 like ETS transcription factor 5 [Source:HGNC Symbol;Acc:HGNC:3320]	ELF5	protein_coding
@@ -1882,7 +1882,7 @@ ENSCPBG00000012675	4	27823326	27823430	-1	5S ribosomal RNA [Source:RFAM;Acc:RF00
 ENSCPBG00000012676	4	27862731	27895455	-1	Rho GTPase activating protein 1 [Source:HGNC Symbol;Acc:HGNC:673]	ARHGAP1	protein_coding
 ENSCPBG00000012683	4	27890905	27900695	1	zinc finger protein 408 [Source:HGNC Symbol;Acc:HGNC:20041]	ZNF408	protein_coding
 ENSCPBG00000012688	4	27914028	27931799	1			protein_coding
-ENSCPBG00000012821	4	27935264	28013189	-1	cytoskeleton associated protein 5 [Source:HGNC Symbol;Acc:HGNC:28959]	CKAP5	protein_coding
+ENSCPBG00000012821	4	27935264	28013189	-1	cytoskeleton associated protein 5 [Source:HGNC Symbol;Acc:HGNC:28959]		protein_coding
 ENSCPBG00000014267	8	12090861	12092340	-1			protein_coding
 ENSCPBG00000014269	8	12324775	12324990	-1			protein_coding
 ENSCPBG00000014272	8	12658748	12744754	1			protein_coding
@@ -2015,7 +2015,7 @@ ENSCPBG00000014720	8	26008140	26008218	1			snoRNA
 ENSCPBG00000014722	8	26008875	26008954	1	Small nucleolar RNA SNORD81 [Source:RFAM;Acc:RF00136]	SNORD81	snoRNA
 ENSCPBG00000014723	8	26012602	26016352	-1			protein_coding
 ENSCPBG00000014727	8	26033280	26076308	-1	aspartyl-tRNA synthetase 2, mitochondrial [Source:HGNC Symbol;Acc:HGNC:25538]	DARS2	protein_coding
-ENSCPBG00000014732	8	26043269	26043855	-1	ribosomal protein S15 [Source:HGNC Symbol;Acc:HGNC:10388]		protein_coding
+ENSCPBG00000014732	8	26043269	26043855	-1	ribosomal protein S15 [Source:HGNC Symbol;Acc:HGNC:10388]	RPS15	protein_coding
 ENSCPBG00000014737	8	26076219	26085925	1	centromere protein L [Source:HGNC Symbol;Acc:HGNC:17879]	CENPL	protein_coding
 ENSCPBG00000014742	8	26080637	26127636	-1	kelch like family member 20 [Source:HGNC Symbol;Acc:HGNC:25056]	KLHL20	protein_coding
 ENSCPBG00000014749	8	26131089	26164209	1	ankyrin repeat domain 45 [Source:HGNC Symbol;Acc:HGNC:24786]	ANKRD45	protein_coding
@@ -2073,7 +2073,7 @@ ENSCPBG00000015722	8	32467651	32467923	-1			protein_coding
 ENSCPBG00000015724	8	32467970	32574026	-1	SMG7 nonsense mediated mRNA decay factor [Source:HGNC Symbol;Acc:HGNC:16792]	SMG7	protein_coding
 ENSCPBG00000015730	8	32604722	32688694	1	nicotinamide nucleotide adenylyltransferase 2 [Source:HGNC Symbol;Acc:HGNC:16789]	NMNAT2	protein_coding
 ENSCPBG00000015745	8	32693817	32724328	-1	laminin subunit gamma 2 [Source:HGNC Symbol;Acc:HGNC:6493]	LAMC2	protein_coding
-ENSCPBG00000015752	8	32753872	32879695	-1	laminin subunit gamma 1 [Source:HGNC Symbol;Acc:HGNC:6492]		protein_coding
+ENSCPBG00000015752	8	32753872	32879695	-1	laminin subunit gamma 1 [Source:HGNC Symbol;Acc:HGNC:6492]	LAMC1	protein_coding
 ENSCPBG00000015754	8	32910256	32974703	1	SHC binding and spindle associated 1 like [Source:HGNC Symbol;Acc:HGNC:16788]	SHCBP1L	protein_coding
 ENSCPBG00000015757	8	32981301	33023967	-1	DExH-box helicase 9 [Source:HGNC Symbol;Acc:HGNC:2750]	DHX9	protein_coding
 ENSCPBG00000015759	8	32999087	32999262	1			misc_RNA
@@ -2304,7 +2304,7 @@ ENSCPBG00000017658	3	50949172	50949323	-1			misc_RNA
 ENSCPBG00000017661	3	51059916	51060043	-1			misc_RNA
 ENSCPBG00000017662	3	51102890	51326869	-1	EYA transcriptional coactivator and phosphatase 4 [Source:HGNC Symbol;Acc:HGNC:3522]	EYA4	protein_coding
 ENSCPBG00000017674	3	51666606	51666690	-1			snoRNA
-ENSCPBG00000017677	3	51666930	51671541	-1	ribosomal protein S12 [Source:HGNC Symbol;Acc:HGNC:10385]		protein_coding
+ENSCPBG00000017677	3	51666930	51671541	-1	ribosomal protein S12 [Source:HGNC Symbol;Acc:HGNC:10385]	RPS12	protein_coding
 ENSCPBG00000017679	3	51667802	51667935	-1			snoRNA
 ENSCPBG00000017680	3	51668513	51668601	-1	small nucleolar RNA, C/D box 100 [Source:HGNC Symbol;Acc:HGNC:32763]		snoRNA
 ENSCPBG00000017683	3	51670146	51670220	-1	small nucleolar RNA, C/D box 101 [Source:HGNC Symbol;Acc:HGNC:32764]		snoRNA
@@ -2340,7 +2340,7 @@ ENSCPBG00000018235	17	3387699	3410232	-1			protein_coding
 ENSCPBG00000018238	17	3418141	3420925	-1			protein_coding
 ENSCPBG00000018241	17	3484410	3518815	-1	heterogeneous nuclear ribonucleoprotein L like [Source:HGNC Symbol;Acc:HGNC:25127]	HNRNPLL	protein_coding
 ENSCPBG00000018244	17	3518352	3585700	1	galactose mutarotase [Source:HGNC Symbol;Acc:HGNC:24063]	GALM	protein_coding
-ENSCPBG00000018247	17	3591071	3606114	-1	serine and arginine rich splicing factor 7 [Source:HGNC Symbol;Acc:HGNC:10789]	SRSF7	protein_coding
+ENSCPBG00000018247	17	3591071	3606114	-1	serine and arginine rich splicing factor 7 [Source:HGNC Symbol;Acc:HGNC:10789]		protein_coding
 ENSCPBG00000018250	17	3607994	3619790	1	gem nuclear organelle associated protein 6 [Source:HGNC Symbol;Acc:HGNC:20044]	GEMIN6	protein_coding
 ENSCPBG00000018252	17	3621523	3630362	1			protein_coding
 ENSCPBG00000018253	17	3645243	3671558	1	mal, T cell differentiation protein [Source:HGNC Symbol;Acc:HGNC:6817]	MAL	protein_coding
@@ -2395,7 +2395,7 @@ ENSCPBG00000018500	3	55694961	55716577	-1	chromosome 6 open reading frame 58 [So
 ENSCPBG00000018501	19	2840479	2840612	-1	U4 spliceosomal RNA [Source:RFAM;Acc:RF00015]	U4	snRNA
 ENSCPBG00000018502	3	55737268	55737398	-1			misc_RNA
 ENSCPBG00000018503	19	2999206	3008370	1	colony stimulating factor 3 receptor [Source:HGNC Symbol;Acc:HGNC:2439]		protein_coding
-ENSCPBG00000018505	3	55764657	55803754	1	SOGA family member 3 [Source:HGNC Symbol;Acc:HGNC:21494]	SOGA3	protein_coding
+ENSCPBG00000018505	3	55764657	55803754	1	SOGA family member 3 [Source:HGNC Symbol;Acc:HGNC:21494]	MTCL3	protein_coding
 ENSCPBG00000018508	19	3019361	3035469	1	mitochondrial ribosomal protein S15 [Source:HGNC Symbol;Acc:HGNC:14504]	MRPS15	protein_coding
 ENSCPBG00000018509	3	55803644	55838841	1	KIAA0408 [Source:HGNC Symbol;Acc:HGNC:21636]	KIAA0408	protein_coding
 ENSCPBG00000018510	3	55923892	55974764	1	ethylmalonyl-CoA decarboxylase 1 [Source:HGNC Symbol;Acc:HGNC:21489]	ECHDC1	protein_coding
@@ -2525,7 +2525,7 @@ ENSCPBG00000019338	19	6894230	6895928	-1			lncRNA
 ENSCPBG00000019343	19	6930787	6954570	-1			protein_coding
 ENSCPBG00000019348	19	6982850	6994660	-1	protein tyrosine phosphatase 4A2 [Source:HGNC Symbol;Acc:HGNC:9635]	PTP4A2	protein_coding
 ENSCPBG00000019352	19	7012797	7044786	-1	ring finger protein 207 [Source:HGNC Symbol;Acc:HGNC:32947]	RNF207	protein_coding
-ENSCPBG00000019359	19	7050504	7060778	1	ribosomal protein L22 [Source:HGNC Symbol;Acc:HGNC:10315]		protein_coding
+ENSCPBG00000019359	19	7050504	7060778	1	ribosomal protein L22 [Source:HGNC Symbol;Acc:HGNC:10315]	RPL22	protein_coding
 ENSCPBG00000019363	19	7104279	7159544	1	chromodomain helicase DNA binding protein 5 [Source:HGNC Symbol;Acc:HGNC:16816]	CHD5	protein_coding
 ENSCPBG00000019373	19	7168548	7287622	-1	potassium voltage-gated channel subfamily A regulatory beta subunit 2 [Source:HGNC Symbol;Acc:HGNC:6229]	KCNAB2	protein_coding
 ENSCPBG00000019380	19	7286756	7396319	1	nephrocystin 4 [Source:HGNC Symbol;Acc:HGNC:19104]	NPHP4	protein_coding
@@ -2589,7 +2589,7 @@ ENSCPBG00000020488	1	68659064	68724838	-1	WASP family member 3 [Source:HGNC Symb
 ENSCPBG00000020490	1	68796907	68816816	-1			lncRNA
 ENSCPBG00000020491	1	68888763	68889780	-1			lncRNA
 ENSCPBG00000020492	1	68890540	68891732	-1			lncRNA
-ENSCPBG00000020495	1	68927310	69079317	-1	cyclin dependent kinase 8 [Source:HGNC Symbol;Acc:HGNC:1779]		protein_coding
+ENSCPBG00000020495	1	68927310	69079317	-1	cyclin dependent kinase 8 [Source:HGNC Symbol;Acc:HGNC:1779]	CDK8	protein_coding
 ENSCPBG00000020502	1	69091056	69103636	1	ring finger protein 6 [Source:HGNC Symbol;Acc:HGNC:10069]	RNF6	protein_coding
 ENSCPBG00000020503	1	69151858	69152032	-1			misc_RNA
 ENSCPBG00000020518	1	69154701	69803591	1	ATPase phospholipid transporting 8A2 [Source:HGNC Symbol;Acc:HGNC:13533]	ATP8A2	protein_coding
@@ -2618,7 +2618,7 @@ ENSCPBG00000020641	2	53440919	53441110	1			misc_RNA
 ENSCPBG00000020646	1	70550522	70559442	1	receptor for activated C kinase 1 [Source:HGNC Symbol;Acc:HGNC:4399]	RACK1	protein_coding
 ENSCPBG00000020649	1	70558234	70558305	1			snoRNA
 ENSCPBG00000020650	2	53484826	53543317	-1	IQ motif and ubiquitin domain containing [Source:HGNC Symbol;Acc:HGNC:21995]	IQUB	protein_coding
-ENSCPBG00000020652	1	70567443	70581911	-1	tripartite motif containing 41 [Source:HGNC Symbol;Acc:HGNC:19013]		protein_coding
+ENSCPBG00000020652	1	70567443	70581911	-1	tripartite motif containing 41 [Source:HGNC Symbol;Acc:HGNC:19013]	TRIM41	protein_coding
 ENSCPBG00000020655	1	70582568	70585414	1			lncRNA
 ENSCPBG00000020657	1	70588989	70594233	1			protein_coding
 ENSCPBG00000020659	1	70612211	70618886	-1			protein_coding
@@ -2706,7 +2706,7 @@ ENSCPBG00000020893	1	76152451	76258092	-1	poly(ADP-ribose) polymerase family mem
 ENSCPBG00000020917	1	76261837	76293770	1	centromere protein J [Source:HGNC Symbol;Acc:HGNC:17272]	CENPJ	protein_coding
 ENSCPBG00000020920	1	76307072	76514528	-1	ring finger protein 17 [Source:HGNC Symbol;Acc:HGNC:10060]	RNF17	protein_coding
 ENSCPBG00000020927	1	76529327	76541474	-1			lncRNA
-ENSCPBG00000020941	1	76900913	77008593	1	Rho GTPase activating protein 20 [Source:HGNC Symbol;Acc:HGNC:18357]	ARHGAP20	protein_coding
+ENSCPBG00000020941	1	76900913	77008593	1	Rho GTPase activating protein 20 [Source:HGNC Symbol;Acc:HGNC:18357]		protein_coding
 ENSCPBG00000021035	1	77068113	77100900	-1	ferredoxin 1 [Source:HGNC Symbol;Acc:HGNC:3638]	FDX1	protein_coding
 ENSCPBG00000021038	1	77136096	77224457	1	radixin [Source:HGNC Symbol;Acc:HGNC:9944]	RDX	protein_coding
 ENSCPBG00000021043	1	77273054	77326302	-1	zinc finger CCCH-type containing 12C [Source:HGNC Symbol;Acc:HGNC:29362]	ZC3H12C	protein_coding
@@ -2778,7 +2778,7 @@ ENSCPBG00000021331	2	59582692	59588207	1			protein_coding
 ENSCPBG00000021333	22	1611299	1611385	1			miRNA
 ENSCPBG00000021334	2	59658893	59772521	1	bromodomain containing 1 [Source:HGNC Symbol;Acc:HGNC:1102]	BRD1	protein_coding
 ENSCPBG00000021337	22	1720473	1773735	1	chloride voltage-gated channel 4 [Source:HGNC Symbol;Acc:HGNC:2022]	CLCN4	protein_coding
-ENSCPBG00000021338	2	62093931	62519551	-1	TAFA chemokine like family member 5 [Source:HGNC Symbol;Acc:HGNC:21592]		protein_coding
+ENSCPBG00000021338	2	62093931	62519551	-1	TAFA chemokine like family member 5 [Source:HGNC Symbol;Acc:HGNC:21592]	TAFA5	protein_coding
 ENSCPBG00000021339	22	1928207	2168727	-1	midline 1 [Source:HGNC Symbol;Acc:HGNC:7095]	MID1	protein_coding
 ENSCPBG00000021340	2	62531217	62551024	1			lncRNA
 ENSCPBG00000021341	2	62583969	62701950	-1			lncRNA
@@ -2794,7 +2794,6 @@ ENSCPBG00000021353	2	64132052	64147898	-1	minichromosome maintenance domain cont
 ENSCPBG00000021360	2	64154296	64238069	-1	serum/glucocorticoid regulated kinase family member 3 [Source:HGNC Symbol;Acc:HGNC:10812]	SGK3	protein_coding
 ENSCPBG00000021363	2	64258828	64283678	1	valosin containing protein interacting protein 1 [Source:HGNC Symbol;Acc:HGNC:30897]	VCPIP1	protein_coding
 ENSCPBG00000021364	2	64294436	64331368	1	MYB proto-oncogene like 1 [Source:HGNC Symbol;Acc:HGNC:7547]	MYBL1	protein_coding
-ENSCPBG00000021365	24	1088216	1159055	1			protein_coding
 ENSCPBG00000021367	2	64323494	64323590	1			misc_RNA
 ENSCPBG00000021368	2	64380755	64385478	-1			protein_coding
 ENSCPBG00000021371	2	64421384	64452975	-1	alcohol dehydrogenase iron containing 1 [Source:HGNC Symbol;Acc:HGNC:16354]	ADHFE1	protein_coding
@@ -2809,7 +2808,6 @@ ENSCPBG00000021390	2	64873174	64899691	-1	mitochondrial fission regulator 1 [Sou
 ENSCPBG00000021391	2	64915592	64964368	1	armadillo repeat containing 1 [Source:HGNC Symbol;Acc:HGNC:17684]	ARMC1	protein_coding
 ENSCPBG00000021393	2	65122589	65194001	-1			lncRNA
 ENSCPBG00000021394	2	65237409	65237591	1			misc_RNA
-ENSCPBG00000021395	24	1274163	1286921	1			protein_coding
 ENSCPBG00000021397	2	65342067	65536267	1	cytochrome P450 family 7 subfamily B member 1 [Source:HGNC Symbol;Acc:HGNC:2652]	CYP7B1	protein_coding
 ENSCPBG00000021399	2	65551706	65552599	-1	basic helix-loop-helix family member e22 [Source:HGNC Symbol;Acc:HGNC:11963]	BHLHE22	protein_coding
 ENSCPBG00000021400	2	65680050	65680140	-1			miRNA
@@ -2817,49 +2815,14 @@ ENSCPBG00000021402	2	65971390	66033746	-1			lncRNA
 ENSCPBG00000021405	2	66274019	66314129	-1	YTH N6-methyladenosine RNA binding protein 3 [Source:HGNC Symbol;Acc:HGNC:26465]	YTHDF3	protein_coding
 ENSCPBG00000021407	2	66368490	66392444	1	alpha tocopherol transfer protein [Source:HGNC Symbol;Acc:HGNC:12404]	TTPA	protein_coding
 ENSCPBG00000021409	2	66401050	66422830	1			protein_coding
-ENSCPBG00000021412	24	1407410	1610097	-1	MORN repeat containing 1 [Source:HGNC Symbol;Acc:HGNC:25852]	MORN1	protein_coding
 ENSCPBG00000021416	2	66440696	66460506	1			protein_coding
-ENSCPBG00000021418	24	1610232	1624577	1	retention in endoplasmic reticulum sorting receptor 1 [Source:HGNC Symbol;Acc:HGNC:30309]	RER1	protein_coding
 ENSCPBG00000021419	2	66483862	66756095	-1	sodium/potassium transporting ATPase interacting 3 [Source:HGNC Symbol;Acc:HGNC:26829]	NKAIN3	protein_coding
-ENSCPBG00000021422	24	1628438	1638281	-1	peroxisomal biogenesis factor 10 [Source:HGNC Symbol;Acc:HGNC:8851]	PEX10	protein_coding
 ENSCPBG00000021423	2	67102409	67296588	1	aspartate beta-hydroxylase [Source:HGNC Symbol;Acc:HGNC:757]	ASPH	protein_coding
-ENSCPBG00000021426	24	1719285	1975864	1	phospholipase C eta 2 [Source:HGNC Symbol;Acc:HGNC:29037]	PLCH2	protein_coding
 ENSCPBG00000021440	2	67287908	67288056	-1			misc_RNA
-ENSCPBG00000021442	24	1983295	2000447	1			protein_coding
 ENSCPBG00000021443	2	67300643	67414722	-1	clavesin 1 [Source:HGNC Symbol;Acc:HGNC:23139]	CLVS1	protein_coding
-ENSCPBG00000021446	24	2003463	2036309	-1	pantothenate kinase 4 (inactive) [Source:HGNC Symbol;Acc:HGNC:19366]	PANK4	protein_coding
 ENSCPBG00000021447	2	67423417	67528069	1			lncRNA
 ENSCPBG00000021448	2	67519715	67519881	1			misc_RNA
-ENSCPBG00000021450	24	2040499	2041231	-1	hes family bHLH transcription factor 5 [Source:HGNC Symbol;Acc:HGNC:19764]	HES5	protein_coding
-ENSCPBG00000021453	24	2053756	2055831	-1			protein_coding
-ENSCPBG00000021455	24	2070787	2072597	1			protein_coding
-ENSCPBG00000021456	24	2112661	2119183	1			lncRNA
-ENSCPBG00000021457	24	2131064	2136754	1			protein_coding
-ENSCPBG00000021459	24	2150269	2160517	1			protein_coding
-ENSCPBG00000021462	24	2165868	2215628	-1	membrane metalloendopeptidase like 1 [Source:HGNC Symbol;Acc:HGNC:14668]	MMEL1	protein_coding
-ENSCPBG00000021474	24	2240239	2283185	-1	tetratricopeptide repeat domain 34 [Source:HGNC Symbol;Acc:HGNC:34297]	TTC34	protein_coding
-ENSCPBG00000021477	24	2417358	2417506	-1			misc_RNA
-ENSCPBG00000021480	24	2501438	2502883	1			protein_coding
-ENSCPBG00000021482	24	2505193	2506329	1	actin related protein T2 [Source:HGNC Symbol;Acc:HGNC:24026]	ACTRT2	protein_coding
-ENSCPBG00000021484	24	2510425	2511558	1			protein_coding
-ENSCPBG00000021485	24	2551489	2990699	1	PR/SET domain 16 [Source:HGNC Symbol;Acc:HGNC:14000]	PRDM16	protein_coding
-ENSCPBG00000021489	24	2605761	2605938	1			misc_RNA
-ENSCPBG00000021492	24	2742465	2742582	1	5S ribosomal RNA [Source:RFAM;Acc:RF00001]	5S_rRNA	rRNA
-ENSCPBG00000021495	24	3023165	3051608	1	Rho guanine nucleotide exchange factor 16 [Source:HGNC Symbol;Acc:HGNC:15515]	ARHGEF16	protein_coding
-ENSCPBG00000021496	24	3064326	3137069	-1	multiple EGF like domains 6 [Source:HGNC Symbol;Acc:HGNC:3232]	MEGF6	protein_coding
-ENSCPBG00000021498	24	3361465	3420705	-1			protein_coding
-ENSCPBG00000021500	24	3643627	3643797	1			misc_RNA
-ENSCPBG00000021501	24	3793846	3907821	-1			protein_coding
-ENSCPBG00000021503	24	3812709	3853517	-1	PR/SET domain 2 [Source:HGNC Symbol;Acc:HGNC:9347]	PRDM2	protein_coding
-ENSCPBG00000021505	24	3940022	3966228	-1			protein_coding
-ENSCPBG00000021506	24	4003871	4030444	1	leucine rich repeat containing 38 [Source:HGNC Symbol;Acc:HGNC:27005]	LRRC38	protein_coding
-ENSCPBG00000021507	24	4081405	4099407	-1			protein_coding
-ENSCPBG00000021508	24	4107128	4121056	-1			protein_coding
-ENSCPBG00000021511	24	4125681	4129694	-1			protein_coding
-ENSCPBG00000021513	24	4154776	4166388	-1			protein_coding
-ENSCPBG00000021514	24	4197799	4245596	1	dehydrogenase/reductase 3 [Source:HGNC Symbol;Acc:HGNC:17693]	DHRS3	protein_coding
 ENSCPBG00000021517	2	67685267	67801417	-1	chromodomain helicase DNA binding protein 7 [Source:HGNC Symbol;Acc:HGNC:20626]	CHD7	protein_coding
-ENSCPBG00000021530	24	4277952	4469260	-1	vacuolar protein sorting 13 homolog D [Source:HGNC Symbol;Acc:HGNC:23595]	VPS13D	protein_coding
 ENSCPBG00000021554	2	3289753	3325945	-1	DBF4 zinc finger [Source:HGNC Symbol;Acc:HGNC:17364]	DBF4	protein_coding
 ENSCPBG00000021555	2	3343325	3345355	-1	frizzled class receptor 1 [Source:HGNC Symbol;Acc:HGNC:4038]	FZD1	protein_coding
 ENSCPBG00000021557	2	3369335	3370555	-1			lncRNA
@@ -2896,104 +2859,11 @@ ENSCPBG00000021881	2	7173816	7193686	-1	anterior gradient 3, protein disulphide 
 ENSCPBG00000021882	2	7411065	7501843	1	aryl hydrocarbon receptor [Source:HGNC Symbol;Acc:HGNC:348]	AHR	protein_coding
 ENSCPBG00000021888	2	7726771	7883215	-1	sorting nexin 13 [Source:HGNC Symbol;Acc:HGNC:21335]	SNX13	protein_coding
 ENSCPBG00000021908	2	8010029	8059186	1	ATP binding cassette subfamily B member 5 [Source:HGNC Symbol;Acc:HGNC:46]	ABCB5	protein_coding
-ENSCPBG00000021946	24	4481382	4523795	-1	TNF receptor superfamily member 1B [Source:HGNC Symbol;Acc:HGNC:11917]	TNFRSF1B	protein_coding
-ENSCPBG00000021948	24	4527704	4549541	-1			protein_coding
-ENSCPBG00000021951	24	4591443	4593645	-1			lncRNA
-ENSCPBG00000021952	24	4606575	4625518	-1	mitofusin 2 [Source:HGNC Symbol;Acc:HGNC:16877]	MFN2	protein_coding
 ENSCPBG00000021953	2	8079480	8081808	-1	Sp8 transcription factor [Source:HGNC Symbol;Acc:HGNC:19196]	SP8	protein_coding
 ENSCPBG00000021954	2	8084317	8095979	1			lncRNA
 ENSCPBG00000021955	2	8424779	8427301	-1			lncRNA
 ENSCPBG00000021957	2	8428551	8479040	1	Sp4 transcription factor [Source:HGNC Symbol;Acc:HGNC:11209]	SP4	protein_coding
-ENSCPBG00000021958	24	4627554	4653140	-1	procollagen-lysine,2-oxoglutarate 5-dioxygenase 1 [Source:HGNC Symbol;Acc:HGNC:9081]	PLOD1	protein_coding
-ENSCPBG00000021960	24	4659725	4666165	1	KIAA2013 [Source:HGNC Symbol;Acc:HGNC:28513]	KIAA2013	protein_coding
-ENSCPBG00000021961	24	4715654	4715789	1			scaRNA
-ENSCPBG00000021963	24	4715655	4715788	1			scaRNA
-ENSCPBG00000021966	24	4719806	4723102	1			protein_coding
-ENSCPBG00000021969	24	4731604	4732888	1			protein_coding
-ENSCPBG00000021971	24	4737552	4742766	1	natriuretic peptide B [Source:HGNC Symbol;Acc:HGNC:7940]		protein_coding
-ENSCPBG00000021972	24	4751529	4754665	1	natriuretic peptide A [Source:HGNC Symbol;Acc:HGNC:7939]	NPPA	protein_coding
-ENSCPBG00000021973	24	4756584	4785691	-1	chloride voltage-gated channel 6 [Source:HGNC Symbol;Acc:HGNC:2024]	CLCN6	protein_coding
-ENSCPBG00000021975	24	4785772	4802576	1	methylenetetrahydrofolate reductase [Source:HGNC Symbol;Acc:HGNC:7436]	MTHFR	protein_coding
-ENSCPBG00000021976	24	4806343	4825533	-1			protein_coding
-ENSCPBG00000021978	24	4822502	4822678	-1			misc_RNA
-ENSCPBG00000021980	24	4825721	4827981	-1			lncRNA
-ENSCPBG00000021982	24	4827988	4833452	-1			lncRNA
-ENSCPBG00000021983	24	4836570	4856014	-1	angiotensin II receptor associated protein [Source:HGNC Symbol;Acc:HGNC:13539]	AGTRAP	protein_coding
-ENSCPBG00000021985	24	4864625	4882429	-1	dorsal inhibitory axon guidance protein [Source:HGNC Symbol;Acc:HGNC:25054]	DRAXIN	protein_coding
-ENSCPBG00000021986	24	4888906	4895590	1	mitotic arrest deficient 2 like 2 [Source:HGNC Symbol;Acc:HGNC:6764]	MAD2L2	protein_coding
-ENSCPBG00000021988	24	4898580	4907119	-1	F-box protein 44 [Source:HGNC Symbol;Acc:HGNC:24847]	FBXO44	protein_coding
-ENSCPBG00000021991	24	4909637	4916648	1	F-box protein 2 [Source:HGNC Symbol;Acc:HGNC:13581]	FBXO2	protein_coding
-ENSCPBG00000021993	24	5034832	5094562	-1	dispatched RND transporter family member 3 [Source:HGNC Symbol;Acc:HGNC:29251]	DISP3	protein_coding
-ENSCPBG00000021995	24	5116091	5160236	1			lncRNA
-ENSCPBG00000021997	24	5283389	5289878	-1	UbiA prenyltransferase domain containing 1 [Source:HGNC Symbol;Acc:HGNC:30791]	UBIAD1	protein_coding
-ENSCPBG00000021998	24	5290152	5319678	1			protein_coding
-ENSCPBG00000022000	24	5293170	5293348	1			misc_RNA
-ENSCPBG00000022002	24	5325746	5332670	-1	angiopoietin like 7 [Source:HGNC Symbol;Acc:HGNC:24078]	ANGPTL7	protein_coding
-ENSCPBG00000022003	24	5352927	5393134	1			protein_coding
-ENSCPBG00000022004	24	5394866	5420098	1	exosome component 10 [Source:HGNC Symbol;Acc:HGNC:9138]	EXOSC10	protein_coding
-ENSCPBG00000022006	24	5422701	5431033	1	spermidine synthase [Source:HGNC Symbol;Acc:HGNC:11296]	SRM	protein_coding
-ENSCPBG00000022007	24	5440379	5444664	1			protein_coding
-ENSCPBG00000022009	24	5466024	5489698	1	mannan binding lectin serine peptidase 2 [Source:HGNC Symbol;Acc:HGNC:6902]	MASP2	protein_coding
-ENSCPBG00000022012	24	5492293	5498634	-1	TAR DNA binding protein [Source:HGNC Symbol;Acc:HGNC:11571]	TARDBP	protein_coding
-ENSCPBG00000022021	24	5685518	5904797	1	castor zinc finger 1 [Source:HGNC Symbol;Acc:HGNC:26002]	CASZ1	protein_coding
-ENSCPBG00000022034	24	5796967	5797074	1			misc_RNA
-ENSCPBG00000022036	24	5874274	6025553	-1	peroxisomal biogenesis factor 14 [Source:HGNC Symbol;Acc:HGNC:8856]	PEX14	protein_coding
-ENSCPBG00000022039	24	6026570	6044164	1	DNA fragmentation factor subunit alpha [Source:HGNC Symbol;Acc:HGNC:2772]	DFFA	protein_coding
-ENSCPBG00000022041	24	6039320	6056721	-1	CENPS-CORT readthrough [Source:HGNC Symbol;Acc:HGNC:38843]	CENPS	protein_coding
-ENSCPBG00000022042	24	6060627	6076530	-1	phosphogluconate dehydrogenase [Source:HGNC Symbol;Acc:HGNC:8891]	PGD	protein_coding
-ENSCPBG00000022046	24	6083123	6212414	-1	kinesin family member 1B [Source:HGNC Symbol;Acc:HGNC:16636]	KIF1B	protein_coding
-ENSCPBG00000022048	24	6237682	6300669	-1	ubiquitination factor E4B [Source:HGNC Symbol;Acc:HGNC:12500]	UBE4B	protein_coding
-ENSCPBG00000022054	24	6313535	6320543	-1	retinol binding protein 7 [Source:HGNC Symbol;Acc:HGNC:30316]	RBP7	protein_coding
-ENSCPBG00000022056	24	6328306	6350507	-1	nicotinamide nucleotide adenylyltransferase 1 [Source:HGNC Symbol;Acc:HGNC:17877]	NMNAT1	protein_coding
-ENSCPBG00000022057	24	6351192	6402170	1	leucine zipper and CTNNBIP1 domain containing [Source:HGNC Symbol;Acc:HGNC:17497]	LZIC	protein_coding
-ENSCPBG00000022061	24	6383343	6432397	1	catenin beta interacting protein 1 [Source:HGNC Symbol;Acc:HGNC:16913]	CTNNBIP1	protein_coding
-ENSCPBG00000022064	24	6435914	6436048	-1			misc_RNA
-ENSCPBG00000022067	24	6465412	6525226	1	calsyntenin 1 [Source:HGNC Symbol;Acc:HGNC:17447]	CLSTN1	protein_coding
-ENSCPBG00000022076	24	6528981	6575779	-1	phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit delta [Source:HGNC Symbol;Acc:HGNC:8977]	PIK3CD	protein_coding
-ENSCPBG00000022078	24	6589367	6589485	1	5S ribosomal RNA [Source:RFAM;Acc:RF00001]	5S_rRNA	rRNA
-ENSCPBG00000022080	24	6599861	6599978	1	5S ribosomal RNA [Source:RFAM;Acc:RF00001]	5S_rRNA	rRNA
-ENSCPBG00000022082	24	6621274	6622223	-1			protein_coding
-ENSCPBG00000022085	24	6633442	6678099	-1			protein_coding
-ENSCPBG00000022087	24	6685487	6743170	-1	solute carrier family 25 member 33 [Source:HGNC Symbol;Acc:HGNC:29681]	SLC25A33	protein_coding
-ENSCPBG00000022089	24	6808905	6880944	-1	splA/ryanodine receptor domain and SOCS box containing 1 [Source:HGNC Symbol;Acc:HGNC:30628]	SPSB1	protein_coding
-ENSCPBG00000022091	24	6900005	6918361	-1	hexose-6-phosphate dehydrogenase/glucose 1-dehydrogenase [Source:HGNC Symbol;Acc:HGNC:4795]	H6PD	protein_coding
-ENSCPBG00000022092	24	6947089	6951544	1			lncRNA
-ENSCPBG00000022093	24	6970112	6970204	1			miRNA
-ENSCPBG00000022094	24	6981998	7007931	1	G protein-coupled receptor 157 [Source:HGNC Symbol;Acc:HGNC:23687]	GPR157	protein_coding
-ENSCPBG00000022098	24	7022544	7040262	1	solute carrier family 2 member 5 [Source:HGNC Symbol;Acc:HGNC:11010]	SLC2A5	protein_coding
-ENSCPBG00000022101	24	7049364	7071701	-1	carbonic anhydrase 6 [Source:HGNC Symbol;Acc:HGNC:1380]		protein_coding
-ENSCPBG00000022102	24	7091771	7112153	1	enolase 1 [Source:HGNC Symbol;Acc:HGNC:3350]	ENO1	protein_coding
-ENSCPBG00000022103	24	7275372	7541395	1	arginine-glutamic acid dipeptide repeats [Source:HGNC Symbol;Acc:HGNC:9965]	RERE	protein_coding
-ENSCPBG00000022110	24	7725894	7908773	1	sterile alpha motif domain containing 11 [Source:HGNC Symbol;Acc:HGNC:28706]	SAMD11	protein_coding
-ENSCPBG00000022118	24	7757756	7757869	-1	5S ribosomal RNA [Source:RFAM;Acc:RF00001]	5S_rRNA	rRNA
-ENSCPBG00000022124	24	7910618	8001448	-1	NOC2 like nucleolar associated transcriptional repressor [Source:HGNC Symbol;Acc:HGNC:24517]	NOC2L	protein_coding
-ENSCPBG00000022127	24	8004439	8024206	1			lncRNA
-ENSCPBG00000022129	24	8024227	8044140	1	kelch like family member 17 [Source:HGNC Symbol;Acc:HGNC:24023]	KLHL17	protein_coding
-ENSCPBG00000022132	24	8048502	8089644	1	pleckstrin homology domain containing N1 [Source:HGNC Symbol;Acc:HGNC:25284]	PLEKHN1	protein_coding
-ENSCPBG00000022135	24	8089659	8092182	1			lncRNA
-ENSCPBG00000022136	24	8089659	8092182	-1			lncRNA
-ENSCPBG00000022138	24	8108584	8116329	-1			protein_coding
-ENSCPBG00000022140	24	8240345	8243212	-1	hes family bHLH transcription factor 4 [Source:HGNC Symbol;Acc:HGNC:24149]	HES4	protein_coding
 ENSCPBG00000022143	2	8507374	8795899	1	dynein axonemal heavy chain 11 [Source:HGNC Symbol;Acc:HGNC:2942]	DNAH11	protein_coding
-ENSCPBG00000022148	24	8532264	8605048	1	agrin [Source:HGNC Symbol;Acc:HGNC:329]	AGRN	protein_coding
-ENSCPBG00000022160	24	8616968	8700929	1			protein_coding
-ENSCPBG00000022168	24	8669021	8669071	1			misc_RNA
-ENSCPBG00000022170	24	8702029	8709205	-1	ring finger protein 223 [Source:HGNC Symbol;Acc:HGNC:40020]	RNF223	protein_coding
-ENSCPBG00000022182	24	8743451	8768763	-1	chromosome 1 open reading frame 159 [Source:HGNC Symbol;Acc:HGNC:26062]	C1orf159	protein_coding
-ENSCPBG00000022191	24	8884139	8884231	1			miRNA
-ENSCPBG00000022196	24	8886861	8886952	1			miRNA
-ENSCPBG00000022197	24	8891035	8891124	1			miRNA
-ENSCPBG00000022203	24	8927924	8978165	1	tubulin tyrosine ligase like 10 [Source:HGNC Symbol;Acc:HGNC:26693]	TTLL10	protein_coding
-ENSCPBG00000022207	24	8982685	8984152	1			lncRNA
-ENSCPBG00000022209	24	8984249	8996211	1			lncRNA
-ENSCPBG00000022213	24	9006419	9016609	-1			protein_coding
-ENSCPBG00000022216	24	9061681	9100364	-1	stromal cell derived factor 4 [Source:HGNC Symbol;Acc:HGNC:24188]	SDF4	protein_coding
-ENSCPBG00000022218	24	9103144	9104184	1	beta-1,3-galactosyltransferase 6 [Source:HGNC Symbol;Acc:HGNC:17978]	B3GALT6	protein_coding
-ENSCPBG00000022220	24	9252357	9296457	-1	C1q and TNF related 12 [Source:HGNC Symbol;Acc:HGNC:32308]	C1QTNF12	protein_coding
-ENSCPBG00000022224	24	9307547	9317398	-1	ubiquitin conjugating enzyme E2 J2 [Source:HGNC Symbol;Acc:HGNC:19268]	UBE2J2	protein_coding
-ENSCPBG00000022230	24	9357240	9372007	1	sodium channel epithelial 1 subunit delta [Source:HGNC Symbol;Acc:HGNC:10601]		protein_coding
-ENSCPBG00000022235	24	9372426	9375738	1			lncRNA
-ENSCPBG00000022283	24	9387788	9490225	-1	ArfGAP with coiled-coil, ankyrin repeat and PH domains 3 [Source:HGNC Symbol;Acc:HGNC:16754]	ACAP3	protein_coding
 ENSCPBG00000022438	2	8746748	8746893	-1			misc_RNA
 ENSCPBG00000022440	2	8790281	8822426	-1	cell division cycle associated 7 like [Source:HGNC Symbol;Acc:HGNC:30777]	CDCA7L	protein_coding
 ENSCPBG00000022443	2	8818223	8821699	1			protein_coding
@@ -3097,7 +2967,7 @@ ENSCPBG00000022578	2	18980309	19245030	1	ubiquitin conjugating enzyme E2 E2 [Sou
 ENSCPBG00000022579	2	19298326	19298506	-1			misc_RNA
 ENSCPBG00000022581	2	19325780	19381886	1	ubiquitin conjugating enzyme E2 E1 [Source:HGNC Symbol;Acc:HGNC:12477]	UBE2E1	protein_coding
 ENSCPBG00000022583	2	19387414	19397594	-1	NFKB inhibitor interacting Ras like 1 [Source:HGNC Symbol;Acc:HGNC:17899]	NKIRAS1	protein_coding
-ENSCPBG00000022585	2	19398941	19406936	1	ribosomal protein L15 [Source:HGNC Symbol;Acc:HGNC:10306]		protein_coding
+ENSCPBG00000022585	2	19398941	19406936	1	ribosomal protein L15 [Source:HGNC Symbol;Acc:HGNC:10306]	RPL15	protein_coding
 ENSCPBG00000022587	2	19424243	19453630	1	nuclear receptor subfamily 1 group D member 2 [Source:HGNC Symbol;Acc:HGNC:7963]	NR1D2	protein_coding
 ENSCPBG00000022590	2	19513260	19700346	-1	thyroid hormone receptor beta [Source:HGNC Symbol;Acc:HGNC:11799]	THRB	protein_coding
 ENSCPBG00000022592	2	19741719	19833944	1			lncRNA
@@ -3112,10 +2982,7 @@ ENSCPBG00000022604	2	20618195	20623318	1	3-oxoacyl-ACP synthase, mitochondrial [
 ENSCPBG00000022605	2	20744441	20744587	-1	U2 spliceosomal RNA [Source:RFAM;Acc:RF00004]	U2	snRNA
 ENSCPBG00000022606	4	28641683	28757006	-1	myosin binding protein C3 [Source:HGNC Symbol;Acc:HGNC:7551]	MYBPC3	protein_coding
 ENSCPBG00000022609	2	21236472	21347869	-1	NIMA related kinase 10 [Source:HGNC Symbol;Acc:HGNC:18592]	NEK10	protein_coding
-ENSCPBG00000022621	24	9567042	9644498	1	pseudouridine synthase like 1 [Source:HGNC Symbol;Acc:HGNC:26914]	PUSL1	protein_coding
-ENSCPBG00000022623	24	9644519	9645586	1			protein_coding
 ENSCPBG00000022630	2	21406650	21571830	-1	solute carrier family 4 member 7 [Source:HGNC Symbol;Acc:HGNC:11033]	SLC4A7	protein_coding
-ENSCPBG00000022634	24	9647034	9667081	-1	integrator complex subunit 11 [Source:HGNC Symbol;Acc:HGNC:26052]	INTS11	protein_coding
 ENSCPBG00000022654	2	21664335	21670550	-1	eomesodermin [Source:HGNC Symbol;Acc:HGNC:3372]	EOMES	protein_coding
 ENSCPBG00000022657	2	21882668	21944204	-1			lncRNA
 ENSCPBG00000022661	2	22004249	22075782	1	C-X9-C motif containing 1 [Source:HGNC Symbol;Acc:HGNC:28783]	CMC1	protein_coding
@@ -3174,78 +3041,35 @@ ENSCPBG00000022852	2	27846102	27913023	-1	mitochondrial ribosomal protein L3 [So
 ENSCPBG00000022856	2	27934157	28270779	-1	copine 4 [Source:HGNC Symbol;Acc:HGNC:2317]	CPNE4	protein_coding
 ENSCPBG00000022862	2	28354535	28360704	1			protein_coding
 ENSCPBG00000022865	2	28398862	28421690	1			protein_coding
-ENSCPBG00000022882	24	9668690	9671189	1	ceramide-1-phosphate transfer protein [Source:HGNC Symbol;Acc:HGNC:28116]	CPTP	protein_coding
-ENSCPBG00000022884	24	9681519	9693030	1	taste 1 receptor member 3 [Source:HGNC Symbol;Acc:HGNC:15661]	TAS1R3	protein_coding
-ENSCPBG00000022891	24	9703191	9884657	-1	dishevelled segment polarity protein 1 [Source:HGNC Symbol;Acc:HGNC:3084]	DVL1	protein_coding
-ENSCPBG00000022895	24	9899847	9902418	-1			lncRNA
-ENSCPBG00000022897	24	9906605	9939654	-1	matrix remodeling associated 8 [Source:HGNC Symbol;Acc:HGNC:7542]	MXRA8	protein_coding
-ENSCPBG00000022898	24	9962329	9962447	1	5S ribosomal RNA [Source:RFAM;Acc:RF00001]	5S_rRNA	rRNA
-ENSCPBG00000022899	24	9967842	9974053	-1	aurora kinase A interacting protein 1 [Source:HGNC Symbol;Acc:HGNC:24114]	AURKAIP1	protein_coding
-ENSCPBG00000022900	24	9979086	9991482	-1			protein_coding
 ENSCPBG00000022901	4	28858153	28889216	-1	Spi-1 proto-oncogene [Source:HGNC Symbol;Acc:HGNC:11241]	SPI1	protein_coding
-ENSCPBG00000022903	24	10018797	10031450	-1	cyclin L2 [Source:HGNC Symbol;Acc:HGNC:20570]	CCNL2	protein_coding
 ENSCPBG00000022904	4	28946738	28972420	1	solute carrier family 39 member 13 [Source:HGNC Symbol;Acc:HGNC:20859]	SLC39A13	protein_coding
-ENSCPBG00000022905	24	10033169	10038290	-1	mitochondrial ribosomal protein L20 [Source:HGNC Symbol;Acc:HGNC:14478]	MRPL20	protein_coding
 ENSCPBG00000022906	4	28982893	29001575	1			protein_coding
 ENSCPBG00000022907	4	28984689	29019362	-1	proteasome 26S subunit, ATPase 3 [Source:HGNC Symbol;Acc:HGNC:9549]	PSMC3	protein_coding
-ENSCPBG00000022908	24	10042698	10049754	-1	ankyrin repeat domain 65 [Source:HGNC Symbol;Acc:HGNC:42950]	ANKRD65	protein_coding
 ENSCPBG00000022909	2	28460901	28544642	1	DnaJ heat shock protein family (Hsp40) member C13 [Source:HGNC Symbol;Acc:HGNC:30343]	DNAJC13	protein_coding
-ENSCPBG00000022910	24	10078921	10120205	1			protein_coding
 ENSCPBG00000022911	4	29019728	29039056	-1	receptor associated protein of the synapse [Source:HGNC Symbol;Acc:HGNC:9863]	RAPSN	protein_coding
-ENSCPBG00000022913	24	10209031	10238079	1	von Willebrand factor A domain containing 1 [Source:HGNC Symbol;Acc:HGNC:30910]	VWA1	protein_coding
 ENSCPBG00000022914	4	29046896	29131523	-1	CUGBP Elav-like family member 1 [Source:HGNC Symbol;Acc:HGNC:2549]	CELF1	protein_coding
-ENSCPBG00000022915	24	10241372	10256313	-1			lncRNA
-ENSCPBG00000022917	24	10256475	10326278	1	ATPase family AAA domain containing 3A [Source:HGNC Symbol;Acc:HGNC:25567]	ATAD3A	protein_coding
 ENSCPBG00000022919	4	29196491	29269767	1	serine/threonine kinase 11 [Source:HGNC Symbol;Acc:HGNC:11389]	STK11	protein_coding
 ENSCPBG00000022920	4	29274314	29290679	-1	CACN subunit beta associated regulatory protein [Source:HGNC Symbol;Acc:HGNC:28617]	CBARP	protein_coding
 ENSCPBG00000022921	4	29309315	29311309	1			protein_coding
 ENSCPBG00000022922	4	29321296	29329317	1	ATP synthase F1 subunit delta [Source:HGNC Symbol;Acc:HGNC:837]	ATP5F1D	protein_coding
-ENSCPBG00000022924	24	10341117	10371877	-1	transmembrane protein 240 [Source:HGNC Symbol;Acc:HGNC:25186]	TMEM240	protein_coding
-ENSCPBG00000022925	24	10386895	10448860	-1	SSU72 homolog, RNA polymerase II CTD phosphatase [Source:HGNC Symbol;Acc:HGNC:25016]		protein_coding
 ENSCPBG00000022926	4	29356148	29388471	1	midnolin [Source:HGNC Symbol;Acc:HGNC:16298]	MIDN	protein_coding
-ENSCPBG00000022927	24	10455491	10466129	1			lncRNA
 ENSCPBG00000022928	4	29463102	29465319	1			lncRNA
-ENSCPBG00000022929	24	10484920	10489886	-1	fibronectin type III domain containing 10 [Source:HGNC Symbol;Acc:HGNC:42951]	FNDC10	protein_coding
 ENSCPBG00000022930	4	29476656	29482291	1	cold inducible RNA binding protein [Source:HGNC Symbol;Acc:HGNC:1982]	CIRBP	protein_coding
-ENSCPBG00000022931	24	10503009	10581682	-1			protein_coding
 ENSCPBG00000022933	4	29491159	29499808	1	family with sequence similarity 174 member C [Source:HGNC Symbol;Acc:HGNC:26073]	FAM174C	protein_coding
 ENSCPBG00000022934	4	29550915	29698605	1	ephrin A2 [Source:HGNC Symbol;Acc:HGNC:3222]	EFNA2	protein_coding
-ENSCPBG00000022935	24	10606416	10609595	1			protein_coding
-ENSCPBG00000022936	24	10626296	10629898	1			lncRNA
 ENSCPBG00000022937	4	29799581	29843986	1			protein_coding
-ENSCPBG00000022938	24	10646385	10735683	1	mindbomb E3 ubiquitin protein ligase 2 [Source:HGNC Symbol;Acc:HGNC:30577]	MIB2	protein_coding
 ENSCPBG00000022939	4	29848540	29876565	1			protein_coding
 ENSCPBG00000022943	4	29884997	29892777	1	NADH:ubiquinone oxidoreductase core subunit S7 [Source:HGNC Symbol;Acc:HGNC:7714]	NDUFS7	protein_coding
-ENSCPBG00000022945	24	10752634	10774001	1	matrix metallopeptidase 23B [Source:HGNC Symbol;Acc:HGNC:7171]	MMP23B	protein_coding
 ENSCPBG00000022946	4	29894481	29904425	-1	guanidinoacetate N-methyltransferase [Source:HGNC Symbol;Acc:HGNC:4136]	GAMT	protein_coding
 ENSCPBG00000022948	4	29900824	29901001	-1			misc_RNA
-ENSCPBG00000022950	24	10779185	10811283	-1			protein_coding
 ENSCPBG00000022951	4	29909126	29944540	1	DAZ associated protein 1 [Source:HGNC Symbol;Acc:HGNC:2683]	DAZAP1	protein_coding
-ENSCPBG00000022953	24	10821040	10848558	-1	solute carrier family 35 member E2B [Source:HGNC Symbol;Acc:HGNC:33941]	SLC35E2B	protein_coding
-ENSCPBG00000022954	24	10852534	10874760	1			protein_coding
-ENSCPBG00000022955	4	29952271	29957509	1	ribosomal protein S15 [Source:HGNC Symbol;Acc:HGNC:10388]	RPS15	protein_coding
-ENSCPBG00000022956	24	10883314	10916291	-1	NAD kinase [Source:HGNC Symbol;Acc:HGNC:29831]	NADK	protein_coding
-ENSCPBG00000022959	24	10934297	10934462	-1			misc_RNA
-ENSCPBG00000022962	24	10960863	11044556	-1	G protein subunit beta 1 [Source:HGNC Symbol;Acc:HGNC:4396]	GNB1	protein_coding
-ENSCPBG00000022965	24	11026215	11109016	1	calmodulin like 6 [Source:HGNC Symbol;Acc:HGNC:24193]	CALML6	protein_coding
-ENSCPBG00000022967	24	11117498	11123016	-1	transmembrane protein 52 [Source:HGNC Symbol;Acc:HGNC:27916]	TMEM52	protein_coding
-ENSCPBG00000022969	24	11183634	11266111	-1	cilia and flagella associated protein 74 [Source:HGNC Symbol;Acc:HGNC:29368]	CFAP74	protein_coding
-ENSCPBG00000022972	24	11303594	11303783	1			misc_RNA
-ENSCPBG00000022978	24	11309265	11515870	1	protein kinase C zeta [Source:HGNC Symbol;Acc:HGNC:9412]	PRKCZ	protein_coding
-ENSCPBG00000022988	24	11519714	11529563	-1			protein_coding
-ENSCPBG00000022989	24	11530405	11533836	1			lncRNA
-ENSCPBG00000022990	24	11574520	11575446	1			protein_coding
-ENSCPBG00000022992	24	11614212	11617028	1			lncRNA
-ENSCPBG00000022993	24	11616704	11620208	-1			lncRNA
-ENSCPBG00000022994	24	11620229	11646109	-1	aldehyde dehydrogenase 4 family member A1 [Source:HGNC Symbol;Acc:HGNC:406]	ALDH4A1	protein_coding
-ENSCPBG00000022996	24	11656994	11706364	-1	intermediate filament family orphan 2 [Source:HGNC Symbol;Acc:HGNC:27006]	IFFO2	protein_coding
+ENSCPBG00000022955	4	29952271	29957509	1	ribosomal protein S15 [Source:HGNC Symbol;Acc:HGNC:10388]		protein_coding
 ENSCPBG00000022998	3	63214270	63215511	-1	serine protease 35 [Source:HGNC Symbol;Acc:HGNC:21387]	PRSS35	protein_coding
 ENSCPBG00000023000	3	63353790	63354817	1			lncRNA
 ENSCPBG00000023019	3	63372519	63676488	1	malic enzyme 1 [Source:HGNC Symbol;Acc:HGNC:6983]	ME1	protein_coding
 ENSCPBG00000023023	2	28505579	28505664	-1	U4 spliceosomal RNA [Source:RFAM;Acc:RF00015]	U4	snRNA
 ENSCPBG00000023029	2	28547416	28611439	-1	acyl-CoA dehydrogenase family member 11 [Source:HGNC Symbol;Acc:HGNC:30211]	ACAD11	protein_coding
 ENSCPBG00000023036	3	63679220	63682314	-1	RWD domain containing 2A [Source:HGNC Symbol;Acc:HGNC:21385]	RWDD2A	protein_coding
-ENSCPBG00000023040	24	11744255	11862470	-1	ubiquitin protein ligase E3 component n-recognin 4 [Source:HGNC Symbol;Acc:HGNC:30313]	UBR4	protein_coding
 ENSCPBG00000023044	3	63693907	63714658	1	phosphoglucomutase 3 [Source:HGNC Symbol;Acc:HGNC:8907]	PGM3	protein_coding
 ENSCPBG00000023046	2	28573835	28574899	1	atypical chemokine receptor 4 [Source:HGNC Symbol;Acc:HGNC:1611]	ACKR4	protein_coding
 ENSCPBG00000023047	2	28608838	28622484	1	ubiquitin like modifier activating enzyme 5 [Source:HGNC Symbol;Acc:HGNC:23230]	UBA5	protein_coding
@@ -3410,73 +3234,30 @@ ENSCPBG00000023541	3	9788705	9800362	-1	NK2 homeobox 2 [Source:HGNC Symbol;Acc:H
 ENSCPBG00000023543	3	9901965	9906185	1	paired box 1 [Source:HGNC Symbol;Acc:HGNC:8615]	PAX1	protein_coding
 ENSCPBG00000023545	3	10374850	10377037	-1	forkhead box A2 [Source:HGNC Symbol;Acc:HGNC:5022]	FOXA2	protein_coding
 ENSCPBG00000023547	3	10422386	10444028	-1	mal, T cell differentiation protein like [Source:HGNC Symbol;Acc:HGNC:6818]	MALL	protein_coding
-ENSCPBG00000023551	24	11812996	11813154	1			misc_RNA
 ENSCPBG00000023552	3	10447325	10487042	-1	nephrocystin 1 [Source:HGNC Symbol;Acc:HGNC:7905]	NPHP1	protein_coding
-ENSCPBG00000023554	24	11856774	11856936	1			misc_RNA
-ENSCPBG00000023556	24	11863665	11890806	-1	ER membrane protein complex subunit 1 [Source:HGNC Symbol;Acc:HGNC:28957]	EMC1	protein_coding
 ENSCPBG00000023558	3	10495453	10500241	-1	mitoregulin [Source:HGNC Symbol;Acc:HGNC:27339]	MTLN	protein_coding
 ENSCPBG00000023559	3	10502169	10534718	1			protein_coding
-ENSCPBG00000023561	24	11886442	11886621	1			misc_RNA
-ENSCPBG00000023562	24	11890214	11902936	1	MRT4 homolog, ribosome maturation factor [Source:HGNC Symbol;Acc:HGNC:18477]	MRTO4	protein_coding
-ENSCPBG00000023563	24	11905043	11911455	-1	aldo-keto reductase family 7 like (gene/pseudogene) [Source:HGNC Symbol;Acc:HGNC:24056]	AKR7L	protein_coding
-ENSCPBG00000023564	24	11915958	11937314	1	solute carrier family 66 member 1 [Source:HGNC Symbol;Acc:HGNC:26001]	SLC66A1	protein_coding
 ENSCPBG00000023565	3	10537072	10540311	-1	transmembrane protein 178A [Source:HGNC Symbol;Acc:HGNC:28517]	TMEM178A	protein_coding
-ENSCPBG00000023567	24	11947473	12057341	-1	capping actin protein of muscle Z-line subunit beta [Source:HGNC Symbol;Acc:HGNC:1491]	CAPZB	protein_coding
 ENSCPBG00000023569	3	10555850	10691736	1	mitogen-activated protein kinase kinase kinase kinase 3 [Source:HGNC Symbol;Acc:HGNC:6865]	MAP4K3	protein_coding
-ENSCPBG00000023572	24	12073959	12099441	1	mitochondrial contact site and cristae organizing system subunit 10 [Source:HGNC Symbol;Acc:HGNC:32068]	MICOS10	protein_coding
-ENSCPBG00000023574	24	12113350	12138363	1	NBL1, DAN family BMP antagonist [Source:HGNC Symbol;Acc:HGNC:7650]	NBL1	protein_coding
-ENSCPBG00000023575	24	12150594	12168360	1	5-hydroxytryptamine receptor 6 [Source:HGNC Symbol;Acc:HGNC:5301]	HTR6	protein_coding
-ENSCPBG00000023577	24	12173052	12257007	-1	transmembrane and coiled-coil domains 4 [Source:HGNC Symbol;Acc:HGNC:27393]	TMCO4	protein_coding
 ENSCPBG00000023579	3	10703162	10784030	1	SOS Ras/Rac guanine nucleotide exchange factor 1 [Source:HGNC Symbol;Acc:HGNC:11187]	SOS1	protein_coding
-ENSCPBG00000023580	24	12267495	12279500	-1	ring finger protein 186 [Source:HGNC Symbol;Acc:HGNC:25978]		protein_coding
-ENSCPBG00000023583	24	12279078	12292043	1	OTU deubiquitinase 3 [Source:HGNC Symbol;Acc:HGNC:29038]	OTUD3	protein_coding
-ENSCPBG00000023586	24	12288500	12288673	1			misc_RNA
 ENSCPBG00000023587	3	10796219	10828455	-1	Rho guanine nucleotide exchange factor 33 [Source:HGNC Symbol;Acc:HGNC:37252]	ARHGEF33	protein_coding
-ENSCPBG00000023589	24	12304792	12310541	-1	phospholipase A2 group IIE [Source:HGNC Symbol;Acc:HGNC:13414]	PLA2G2E	protein_coding
-ENSCPBG00000023592	24	12312497	12315133	-1	phospholipase A2 group IID [Source:HGNC Symbol;Acc:HGNC:9033]	PLA2G2D	protein_coding
 ENSCPBG00000023595	3	10864897	10871321	-1	MORN repeat containing 2 [Source:HGNC Symbol;Acc:HGNC:30166]	MORN2	protein_coding
-ENSCPBG00000023596	24	12326976	12334989	-1	phospholipase A2 group IIA [Source:HGNC Symbol;Acc:HGNC:9031]		protein_coding
 ENSCPBG00000023598	3	10877087	10908348	1	DExH-box helicase 57 [Source:HGNC Symbol;Acc:HGNC:20086]	DHX57	protein_coding
-ENSCPBG00000023599	24	12341001	12348383	-1			protein_coding
-ENSCPBG00000023601	24	12367268	12371523	1	phospholipase A2 group IIF [Source:HGNC Symbol;Acc:HGNC:30040]	PLA2G2F	protein_coding
 ENSCPBG00000023603	3	10918914	10990801	-1	tau tubulin kinase 1 [Source:HGNC Symbol;Acc:HGNC:19140]	TTBK1	protein_coding
-ENSCPBG00000023605	24	12382947	12388461	1	UBX domain protein 10 [Source:HGNC Symbol;Acc:HGNC:26354]	UBXN10	protein_coding
-ENSCPBG00000023607	24	12393553	12419039	-1			protein_coding
 ENSCPBG00000023609	3	12106291	12160116	-1	mediator of cell motility 1 [Source:HGNC Symbol;Acc:HGNC:14014]	MEMO1	protein_coding
-ENSCPBG00000023610	24	12400284	12402085	1			protein_coding
 ENSCPBG00000023611	3	12181581	12185717	-1	dpy-30 histone methyltransferase complex regulatory subunit [Source:HGNC Symbol;Acc:HGNC:24590]	DPY30	protein_coding
-ENSCPBG00000023612	24	12433159	12447806	1			lncRNA
 ENSCPBG00000023613	3	12203564	12205679	-1			protein_coding
-ENSCPBG00000023615	24	12448889	12509629	1	von Willebrand factor A domain containing 5B1 [Source:HGNC Symbol;Acc:HGNC:26538]	VWA5B1	protein_coding
 ENSCPBG00000023616	3	12205278	12260029	1	spastin [Source:HGNC Symbol;Acc:HGNC:11233]	SPAST	protein_coding
-ENSCPBG00000023620	24	12613822	12617014	-1	calcium/calmodulin dependent protein kinase II inhibitor 1 [Source:HGNC Symbol;Acc:HGNC:24190]	CAMK2N1	protein_coding
-ENSCPBG00000023621	24	12632138	12640646	-1	mitochondrial E3 ubiquitin protein ligase 1 [Source:HGNC Symbol;Acc:HGNC:25762]	MUL1	protein_coding
-ENSCPBG00000023623	24	12652016	12653002	-1			pseudogene
-ENSCPBG00000023625	24	12704377	12716715	-1			protein_coding
-ENSCPBG00000023627	24	12727963	12751995	1	cytidine deaminase [Source:HGNC Symbol;Acc:HGNC:1712]	CDA	protein_coding
-ENSCPBG00000023631	24	12751164	12772524	1	PTEN induced kinase 1 [Source:HGNC Symbol;Acc:HGNC:14581]	PINK1	protein_coding
-ENSCPBG00000023632	24	12777166	12786940	-1			lncRNA
-ENSCPBG00000023633	24	12782918	12786940	1			lncRNA
-ENSCPBG00000023635	24	12794780	12810550	-1	DnaJ heat shock protein family (Hsp40) member C16 [Source:HGNC Symbol;Acc:HGNC:29157]	DNAJC16	protein_coding
-ENSCPBG00000023640	24	12811642	12825044	1	caspase 9 [Source:HGNC Symbol;Acc:HGNC:1511]	CASP9	protein_coding
-ENSCPBG00000023644	24	12826907	12836120	-1			protein_coding
-ENSCPBG00000023652	24	12842994	12854556	-1			protein_coding
-ENSCPBG00000023656	24	12869655	12879991	-1			protein_coding
-ENSCPBG00000023665	24	12888437	12909278	-1	EF-hand domain family member D2 [Source:HGNC Symbol;Acc:HGNC:28670]	EFHD2	protein_coding
-ENSCPBG00000023671	24	12918655	12978559	-1	forkhead associated phosphopeptide binding domain 1 [Source:HGNC Symbol;Acc:HGNC:29408]	FHAD1	protein_coding
 ENSCPBG00000023673	3	12269727	12307001	1	solute carrier family 30 member 6 [Source:HGNC Symbol;Acc:HGNC:19305]	SLC30A6	protein_coding
 ENSCPBG00000023676	3	12310513	12351017	-1	glutaminyl-peptide cyclotransferase [Source:HGNC Symbol;Acc:HGNC:9753]	QPCT	protein_coding
 ENSCPBG00000023680	3	12349891	12431645	1	protein kinase D3 [Source:HGNC Symbol;Acc:HGNC:9408]	PRKD3	protein_coding
-ENSCPBG00000023682	24	12985151	13021003	-1	transmembrane protein 51 [Source:HGNC Symbol;Acc:HGNC:25488]	TMEM51	protein_coding
 ENSCPBG00000023683	3	12436543	12455249	-1	NADH:ubiquinone oxidoreductase complex assembly factor 7 [Source:HGNC Symbol;Acc:HGNC:28816]	NDUFAF7	protein_coding
 ENSCPBG00000023684	3	12454942	12480591	1	CCAAT enhancer binding protein zeta [Source:HGNC Symbol;Acc:HGNC:24218]	CEBPZ	protein_coding
-ENSCPBG00000023686	24	13034554	13114348	-1	kazrin, periplakin interacting protein [Source:HGNC Symbol;Acc:HGNC:29173]	KAZN	protein_coding
 ENSCPBG00000023688	3	12480484	12485755	-1	CEBPZ opposite strand [Source:HGNC Symbol;Acc:HGNC:49288]	CEBPZOS	protein_coding
-ENSCPBG00000023690	3	12488917	12500420	1	sulfotransferase family 6B member 1 [Source:HGNC Symbol;Acc:HGNC:33433]		protein_coding
+ENSCPBG00000023690	3	12488917	12500420	1	sulfotransferase family 6B member 1 [Source:HGNC Symbol;Acc:HGNC:33433]	SULT6B1	protein_coding
 ENSCPBG00000023695	3	12502999	12504027	1			protein_coding
 ENSCPBG00000023697	3	13131792	13227220	1			lncRNA
 ENSCPBG00000023699	3	13526867	13651794	1			lncRNA
-ENSCPBG00000023700	25	1024775	1033083	-1			protein_coding
 ENSCPBG00000023708	3	14124805	14436165	1	cysteine rich transmembrane BMP regulator 1 [Source:HGNC Symbol;Acc:HGNC:2359]	CRIM1	protein_coding
 ENSCPBG00000023723	3	14450481	14502703	1	fasciculation and elongation protein zeta 2 [Source:HGNC Symbol;Acc:HGNC:3660]	FEZ2	protein_coding
 ENSCPBG00000023728	3	14530521	14532766	1			lncRNA
@@ -3496,7 +3277,7 @@ ENSCPBG00000023958	3	69847919	69849391	1			lncRNA
 ENSCPBG00000023961	3	69970617	70087662	-1	CD109 molecule [Source:HGNC Symbol;Acc:HGNC:21685]	CD109	protein_coding
 ENSCPBG00000023971	3	70136604	70177949	1	solute carrier family 17 member 5 [Source:HGNC Symbol;Acc:HGNC:10933]	SLC17A5	protein_coding
 ENSCPBG00000023976	3	70304056	70308263	1	beta-1,3-glucuronyltransferase 2 [Source:HGNC Symbol;Acc:HGNC:922]		protein_coding
-ENSCPBG00000023977	3	70325200	70350648	1	beta-1,3-glucuronyltransferase 2 [Source:HGNC Symbol;Acc:HGNC:922]		protein_coding
+ENSCPBG00000023977	3	70325200	70350648	1	beta-1,3-glucuronyltransferase 2 [Source:HGNC Symbol;Acc:HGNC:922]	B3GAT2	protein_coding
 ENSCPBG00000023984	3	70350448	70559337	-1	small ArfGAP 1 [Source:HGNC Symbol;Acc:HGNC:19651]	SMAP1	protein_coding
 ENSCPBG00000023987	3	70607015	70612801	-1	succinate dehydrogenase complex assembly factor 4 [Source:HGNC Symbol;Acc:HGNC:20957]	SDHAF4	protein_coding
 ENSCPBG00000023993	3	14874999	14963553	-1	HEAT repeat containing 5B [Source:HGNC Symbol;Acc:HGNC:29273]	HEATR5B	protein_coding
@@ -3568,7 +3349,7 @@ ENSCPBG00000024944	4	34365896	34386435	-1	tec protein tyrosine kinase [Source:HG
 ENSCPBG00000024950	4	34396945	34451248	-1			protein_coding
 ENSCPBG00000024953	4	34526699	34588956	1	SLAIN motif family member 2 [Source:HGNC Symbol;Acc:HGNC:29282]	SLAIN2	protein_coding
 ENSCPBG00000024959	4	34622863	34625771	1			protein_coding
-ENSCPBG00000024962	4	34626113	34629859	1	solute carrier family 10 member 4 [Source:HGNC Symbol;Acc:HGNC:22980]	SLC10A4	protein_coding
+ENSCPBG00000024962	4	34626113	34629859	1	solute carrier family 10 member 4 [Source:HGNC Symbol;Acc:HGNC:22980]		protein_coding
 ENSCPBG00000024965	4	34630475	34633378	1	zygote arrest 1 [Source:HGNC Symbol;Acc:HGNC:20436]	ZAR1	protein_coding
 ENSCPBG00000024971	4	34643339	35019457	-1	FRY like transcription coactivator [Source:HGNC Symbol;Acc:HGNC:29127]	FRYL	protein_coding
 ENSCPBG00000024981	4	35068432	35103128	1	OCIA domain containing 1 [Source:HGNC Symbol;Acc:HGNC:16074]	OCIAD1	protein_coding
@@ -3678,7 +3459,7 @@ ENSCPBG00000025242	4	185231	185395	1			misc_RNA
 ENSCPBG00000025243	3	17159908	17187414	-1	mitochondrial ribosomal protein S18A [Source:HGNC Symbol;Acc:HGNC:14515]	MRPS18A	protein_coding
 ENSCPBG00000025246	4	307069	309294	-1			protein_coding
 ENSCPBG00000025247	3	17191106	17191238	1	5S ribosomal RNA [Source:RFAM;Acc:RF00001]	5S_rRNA	rRNA
-ENSCPBG00000025249	4	313174	631155	-1	plexin A2 [Source:HGNC Symbol;Acc:HGNC:9100]		protein_coding
+ENSCPBG00000025249	4	313174	631155	-1	plexin A2 [Source:HGNC Symbol;Acc:HGNC:9100]	PLXNA2	protein_coding
 ENSCPBG00000025250	3	17201772	17231987	1			lncRNA
 ENSCPBG00000025251	3	17233973	17234151	-1			misc_RNA
 ENSCPBG00000025252	6	9104543	9206591	-1			protein_coding
@@ -3701,7 +3482,7 @@ ENSCPBG00000025274	4	2394713	2404426	-1			protein_coding
 ENSCPBG00000025275	6	9420016	9461293	1	SAMM50 sorting and assembly machinery component [Source:HGNC Symbol;Acc:HGNC:24276]	SAMM50	protein_coding
 ENSCPBG00000025277	4	2415684	2443585	-1	chromosome 6 open reading frame 89 [Source:HGNC Symbol;Acc:HGNC:21114]	C6orf89	protein_coding
 ENSCPBG00000025278	6	9434456	9434620	-1			misc_RNA
-ENSCPBG00000025279	4	2450592	2471920	-1	RAB44, member RAS oncogene family [Source:HGNC Symbol;Acc:HGNC:21068]		protein_coding
+ENSCPBG00000025279	4	2450592	2471920	-1	RAB44, member RAS oncogene family [Source:HGNC Symbol;Acc:HGNC:21068]	RAB44	protein_coding
 ENSCPBG00000025281	4	41065413	41100664	1	cochlin [Source:HGNC Symbol;Acc:HGNC:2180]	COCH	protein_coding
 ENSCPBG00000025282	4	2466852	2467039	1			misc_RNA
 ENSCPBG00000025283	3	17969162	17999745	1	calpain 11 [Source:HGNC Symbol;Acc:HGNC:1478]	CAPN11	protein_coding
@@ -3852,7 +3633,7 @@ ENSCPBG00000025600	6	16583487	16599784	-1			protein_coding
 ENSCPBG00000025602	6	16620056	16641169	-1	chromosome 18 open reading frame 54 [Source:HGNC Symbol;Acc:HGNC:13796]	C18orf54	protein_coding
 ENSCPBG00000025603	6	16643297	16660738	1	DNA polymerase iota [Source:HGNC Symbol;Acc:HGNC:9182]	POLI	protein_coding
 ENSCPBG00000025604	6	16660817	16663950	-1			protein_coding
-ENSCPBG00000025606	6	16670755	16728588	1	methyl-CpG binding domain protein 2 [Source:HGNC Symbol;Acc:HGNC:6917]		protein_coding
+ENSCPBG00000025606	6	16670755	16728588	1	methyl-CpG binding domain protein 2 [Source:HGNC Symbol;Acc:HGNC:6917]	MBD2	protein_coding
 ENSCPBG00000025608	6	17070733	17686483	-1	DCC netrin 1 receptor [Source:HGNC Symbol;Acc:HGNC:2701]	DCC	protein_coding
 ENSCPBG00000025609	6	18367952	18368102	-1			misc_RNA
 ENSCPBG00000025610	6	18486062	18487069	-1			lncRNA
@@ -3899,10 +3680,10 @@ ENSCPBG00000025713	6	22841890	22859430	-1	HAUS augmin like complex subunit 1 [So
 ENSCPBG00000025716	6	22863899	22876618	1	ATP synthase F1 subunit alpha [Source:HGNC Symbol;Acc:HGNC:823]	ATP5F1A	protein_coding
 ENSCPBG00000025723	6	22923786	22952144	1	proline-serine-threonine phosphatase interacting protein 2 [Source:HGNC Symbol;Acc:HGNC:9581]	PSTPIP2	protein_coding
 ENSCPBG00000025732	6	22986686	23076114	1	ectopic P-granules autophagy protein 5 homolog [Source:HGNC Symbol;Acc:HGNC:29331]	EPG5	protein_coding
-ENSCPBG00000025735	6	23087173	23104339	-1	sialic acid binding Ig like lectin 15 [Source:HGNC Symbol;Acc:HGNC:27596]	SIGLEC15	protein_coding
+ENSCPBG00000025735	6	23087173	23104339	-1	sialic acid binding Ig like lectin 15 [Source:HGNC Symbol;Acc:HGNC:27596]		protein_coding
 ENSCPBG00000025736	6	23109530	23111575	-1			protein_coding
 ENSCPBG00000025738	6	23189516	23224703	-1			protein_coding
-ENSCPBG00000025740	6	23238107	23322932	-1	solute carrier family 14 member 2 [Source:HGNC Symbol;Acc:HGNC:10919]	SLC14A2	protein_coding
+ENSCPBG00000025740	6	23238107	23322932	-1	solute carrier family 14 member 2 [Source:HGNC Symbol;Acc:HGNC:10919]		protein_coding
 ENSCPBG00000025743	6	23737532	23873949	-1	SET binding protein 1 [Source:HGNC Symbol;Acc:HGNC:15573]	SETBP1	protein_coding
 ENSCPBG00000025758	6	24105556	24209170	-1			protein_coding
 ENSCPBG00000025759	8	33873604	33873778	1			misc_RNA
@@ -4137,7 +3918,7 @@ ENSCPBG00000027589	6	32300559	32300722	1			misc_RNA
 ENSCPBG00000027592	6	32304272	32304435	1			misc_RNA
 ENSCPBG00000027593	6	32361656	32499221	1	mastermind like transcriptional coactivator 3 [Source:HGNC Symbol;Acc:HGNC:16272]	MAML3	protein_coding
 ENSCPBG00000027595	6	32506001	32563050	-1	microsomal glutathione S-transferase 2 [Source:HGNC Symbol;Acc:HGNC:7063]	MGST2	protein_coding
-ENSCPBG00000027597	6	32562262	32581531	1	SET domain containing 7, histone lysine methyltransferase [Source:HGNC Symbol;Acc:HGNC:30412]		protein_coding
+ENSCPBG00000027597	6	32562262	32581531	1	SET domain containing 7, histone lysine methyltransferase [Source:HGNC Symbol;Acc:HGNC:30412]	SETD7	protein_coding
 ENSCPBG00000027600	6	32572557	32591610	1	SET domain containing 7, histone lysine methyltransferase [Source:HGNC Symbol;Acc:HGNC:30412]		protein_coding
 ENSCPBG00000027603	6	32606019	32633843	1			protein_coding
 ENSCPBG00000027605	6	32635055	32643536	-1	RAB33B, member RAS oncogene family [Source:HGNC Symbol;Acc:HGNC:16075]	RAB33B	protein_coding

@@ -1,8 +1,0 @@
-Gene stable ID	Chromosome/scaffold name	Gene start (bp)	Gene end (bp)	Strand	Gene description	Gene name	Gene type	Gene stable ID	Chromosome/scaffold name	Gene start (bp)	Gene end (bp)	Strand	Gene description	Gene name	Gene type	distance
-ENSSCUG00000000008	MT	3740	3810	1			Mt_tRNA	ENSSCUG00000000009	MT	3822	3892	-1			Mt_tRNA	12
-ENSSCUG00000000009	MT	3822	3892	-1			Mt_tRNA	ENSSCUG00000000010	MT	3892	3960	1			Mt_tRNA	0
-ENSSCUG00000000012	MT	5000	5073	1			Mt_tRNA	ENSSCUG00000000013	MT	5074	5142	-1			Mt_tRNA	1
-ENSSCUG00000000016	MT	5287	5357	-1			Mt_tRNA	ENSSCUG00000000017	MT	5359	6909	1	mitochondrially encoded cytochrome c oxidase I [Source:HGNC Symbol;Acc:HGNC:7419]	MT-CO1	protein_coding	2
-ENSSCUG00000000017	MT	5359	6909	1	mitochondrially encoded cytochrome c oxidase I [Source:HGNC Symbol;Acc:HGNC:7419]	MT-CO1	protein_coding	ENSSCUG00000000018	MT	6901	6974	-1			Mt_tRNA	8
-ENSSCUG00000000018	MT	6901	6974	-1			Mt_tRNA	ENSSCUG00000000019	MT	6978	7046	1			Mt_tRNA	4
-ENSSCUG00000000035	MT	14764	14833	1			Mt_tRNA	ENSSCUG00000000036	MT	14889	14958	-1			Mt_tRNA	56
