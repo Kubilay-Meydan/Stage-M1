@@ -1,0 +1,38 @@
+Gene stable ID	Chromosome/scaffold name	Gene start (bp)	Gene end (bp)	Strand	Gene description	Gene name	Gene type
+ENSPPRG00000000001	MT	955	1025	1			Mt_tRNA
+ENSPPRG00000000002	MT	1026	1984	1			Mt_rRNA
+ENSPPRG00000000003	MT	1985	2052	1			Mt_tRNA
+ENSPPRG00000000004	MT	2053	3624	1			Mt_rRNA
+ENSPPRG00000000005	MT	3625	3701	1			Mt_tRNA
+ENSPPRG00000000006	MT	3704	4659	1	NADH dehydrogenase subunit 1 [Source:NCBI gene (formerly Entrezgene);Acc:6262379]	ND1	protein_coding
+ENSPPRG00000000007	MT	4660	4728	1			Mt_tRNA
+ENSPPRG00000000008	MT	4726	4799	-1			Mt_tRNA
+ENSPPRG00000000009	MT	4801	4869	1			Mt_tRNA
+ENSPPRG00000000010	MT	4870	5911	1	NADH dehydrogenase subunit 2 [Source:NCBI gene (formerly Entrezgene);Acc:6262376]	ND2	protein_coding
+ENSPPRG00000000011	MT	5912	5980	1			Mt_tRNA
+ENSPPRG00000000012	MT	5997	6065	-1			Mt_tRNA
+ENSPPRG00000000013	MT	6067	6139	-1			Mt_tRNA
+ENSPPRG00000000014	MT	6179	6244	-1			Mt_tRNA
+ENSPPRG00000000015	MT	6238	6303	-1			Mt_tRNA
+ENSPPRG00000000016	MT	6305	7849	1	cytochrome c oxidase subunit I [Source:NCBI gene (formerly Entrezgene);Acc:6262371]	COX1	protein_coding
+ENSPPRG00000000017	MT	7847	7915	-1			Mt_tRNA
+ENSPPRG00000000018	MT	7922	7990	1			Mt_tRNA
+ENSPPRG00000000019	MT	7991	8674	1	cytochrome c oxidase subunit II [Source:NCBI gene (formerly Entrezgene);Acc:6262377]	COX2	protein_coding
+ENSPPRG00000000020	MT	8678	8745	1			Mt_tRNA
+ENSPPRG00000000021	MT	8747	8950	1	ATP synthase F0 subunit 8 [Source:NCBI gene (formerly Entrezgene);Acc:6262374]	ATP8	protein_coding
+ENSPPRG00000000022	MT	8908	9588	1	ATP synthase F0 subunit 6 [Source:NCBI gene (formerly Entrezgene);Acc:6262372]	ATP6	protein_coding
+ENSPPRG00000000023	MT	9588	10371	1	cytochrome c oxidase subunit III [Source:NCBI gene (formerly Entrezgene);Acc:6262375]	COX3	protein_coding
+ENSPPRG00000000024	MT	10372	10440	1			Mt_tRNA
+ENSPPRG00000000025	MT	10441	10787	1	NADH dehydrogenase subunit 3 [Source:NCBI gene (formerly Entrezgene);Acc:6262373]	ND3	protein_coding
+ENSPPRG00000000026	MT	10788	10856	1			Mt_tRNA
+ENSPPRG00000000027	MT	10857	11153	1	NADH dehydrogenase subunit 4L [Source:NCBI gene (formerly Entrezgene);Acc:6262378]	ND4L	protein_coding
+ENSPPRG00000000028	MT	11147	12521	1	NADH dehydrogenase subunit 4 [Source:NCBI gene (formerly Entrezgene);Acc:6262382]	ND4	protein_coding
+ENSPPRG00000000029	MT	12525	12593	1			Mt_tRNA
+ENSPPRG00000000030	MT	12600	12657	1			Mt_tRNA
+ENSPPRG00000000031	MT	12653	12722	1			Mt_tRNA
+ENSPPRG00000000032	MT	12723	14543	1	NADH dehydrogenase subunit 5 [Source:NCBI gene (formerly Entrezgene);Acc:6262381]	ND5	protein_coding
+ENSPPRG00000000033	MT	14527	15054	-1	NADH dehydrogenase subunit 6 [Source:NCBI gene (formerly Entrezgene);Acc:6262380]	ND6	protein_coding
+ENSPPRG00000000034	MT	15055	15123	-1			Mt_tRNA
+ENSPPRG00000000035	MT	15127	16266	1	cytochrome b [Source:NCBI gene (formerly Entrezgene);Acc:6262383]	CYTB	protein_coding
+ENSPPRG00000000036	MT	16271	16340	1			Mt_tRNA
+ENSPPRG00000000037	MT	16337	16403	-1			Mt_tRNA
