@@ -11,7 +11,7 @@ server = BiomartServer("http://www.ensembl.org/biomart")
 genes_datasets = [i for i in server.datasets if i.endswith("gene_ensembl")]
 
 
-results_dir = "results"
+results_dir = "results2"
 
 
 for dataset in genes_datasets:
@@ -32,7 +32,7 @@ for dataset in genes_datasets:
 
 for filename in os.listdir(results_dir):
     if filename.endswith(""):
-        if os.path.exists("results/BIPS/" + "BIP-" + filename):
+        if os.path.exists("results2/BIPS/" + "BIP-" + filename):
 
             print(f"File {results_path} BIP already exists. Skipping...")
         else:

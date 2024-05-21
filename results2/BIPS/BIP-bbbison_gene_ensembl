@@ -1,0 +1,10 @@
+Gene stable ID	Chromosome/scaffold name	Gene start (bp)	Gene end (bp)	Strand	Gene description	Gene name	Gene type	Gene stable ID	Chromosome/scaffold name	Gene start (bp)	Gene end (bp)	Strand	Gene description	Gene name	Gene type	distance
+ENSBBBG00000000008	MT	4055	4123	1			Mt_tRNA	ENSBBBG00000000009	MT	4121	4192	-1			Mt_tRNA	2
+ENSBBBG00000000009	MT	4121	4192	-1			Mt_tRNA	ENSBBBG00000000010	MT	4195	4263	1			Mt_tRNA	3
+ENSBBBG00000000012	MT	5306	5372	1			Mt_tRNA	ENSBBBG00000000013	MT	5374	5442	-1			Mt_tRNA	2
+ENSBBBG00000000016	MT	5617	5684	-1			Mt_tRNA	ENSBBBG00000000017	MT	5686	7230	1	mitochondrially encoded cytochrome c oxidase I [Source:HGNC Symbol;Acc:HGNC:7419]	MT-CO1	protein_coding	2
+ENSBBBG00000000017	MT	5686	7230	1	mitochondrially encoded cytochrome c oxidase I [Source:HGNC Symbol;Acc:HGNC:7419]	MT-CO1	protein_coding	ENSBBBG00000000018	MT	7228	7300	-1			Mt_tRNA	2
+ENSBBBG00000000018	MT	7228	7300	-1			Mt_tRNA	ENSBBBG00000000019	MT	7305	7373	1			Mt_tRNA	5
+ENSBBBG00000000033	MT	12109	13929	1	mitochondrially encoded NADH:ubiquinone oxidoreductase core subunit 5 [Source:HGNC Symbol;Acc:HGNC:7461]	MT-ND5	protein_coding	ENSBBBG00000000034	MT	13913	14440	-1	mitochondrially encoded NADH:ubiquinone oxidoreductase core subunit 6 [Source:HGNC Symbol;Acc:HGNC:7462]	MT-ND6	protein_coding	16
+ENSBBBG00000000035	MT	14441	14509	-1			Mt_tRNA	ENSBBBG00000000036	MT	14514	15653	1	mitochondrially encoded cytochrome b [Source:HGNC Symbol;Acc:HGNC:7427]	MT-CYB	protein_coding	5
+ENSBBBG00000000037	MT	15658	15726	1			Mt_tRNA	ENSBBBG00000000038	MT	15726	15791	-1			Mt_tRNA	0

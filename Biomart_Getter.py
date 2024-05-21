@@ -3,7 +3,7 @@ import csv
 import pandas as pd
 
 
-def getCSV(serv = "http://www.ensembl.org/biomart", dataset = 'hsapiens_gene_ensembl', verbose = False):
+def getCSV(serv="http://www.ensembl.org/biomart", dataset='hsapiens_gene_ensembl', verbose=False):
     server = BiomartServer(serv)
     genes = server.datasets[dataset]
     server.verbose = verbose 
@@ -11,7 +11,7 @@ def getCSV(serv = "http://www.ensembl.org/biomart", dataset = 'hsapiens_gene_ens
     for i in server.datasets:
         if i.endswith("gene_ensembl"):
             Genes111datasets.append(i)
-    print(len(Genes111datasets)) #229 
+    print(len(Genes111datasets))  # 229 
     print(server.datasets["hsapiens_gene_ensembl"])
 
     attributes = [
@@ -37,16 +37,18 @@ def write_csv(response, destination):
             decoded_line = line.decode('utf-8')
             writer.writerow(decoded_line.split("\t"))
 
-getCSV(dataset= "abrachyrhynchus_gene_ensembl",verbose = True)
+getCSV(dataset="abrachyrhynchus_gene_ensembl", verbose=True)
 
 
 def filter_chromosome(csv_input, csv_output):
-
     data = pd.read_csv(csv_input, delimiter='\t')
 
-    filtered_data = data[data['Chromosome/scaffold name'].apply(lambda x: str(x).isdigit() or str(x) == 'MT')]
+    # Define the valid chromosome names
+    valid_chromosomes = [str(i) for i in range(1, 23)] + ['X', 'Y', 'W', 'Z', 'MT']
+
+    filtered_data = data[data['Chromosome/scaffold name'].isin(valid_chromosomes)]
 
     filtered_data.to_csv(csv_output, index=False, sep='\t')
 
-
-#filter_chromosome("abrachyrhynchus_gene_ensembl", 'clean.csv')
+# Example usage:
+# filter_chromosome("abrachyrhynchus_gene_ensembl.csv", 'clean.csv')

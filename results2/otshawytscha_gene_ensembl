@@ -1,0 +1,38 @@
+Gene stable ID	Chromosome/scaffold name	Gene start (bp)	Gene end (bp)	Strand	Gene description	Gene name	Gene type
+ENSOTSG00005000002	MT	987	1054	1	tRNA-Phe		Mt_tRNA
+ENSOTSG00005000003	MT	1055	2001	1	12S ribosomal RNA		Mt_rRNA
+ENSOTSG00005000004	MT	2002	2073	1	tRNA-Val		Mt_tRNA
+ENSOTSG00005000005	MT	2074	3756	1	16S ribosomal RNA		Mt_rRNA
+ENSOTSG00005000006	MT	3757	3831	1	tRNA-Leu		Mt_tRNA
+ENSOTSG00005000007	MT	3832	4806	1	NADH dehydrogenase subunit 1 [Source:NCBI gene (formerly Entrezgene);Acc:803437]	ND1	protein_coding
+ENSOTSG00005000008	MT	4810	4881	1	tRNA-Ile		Mt_tRNA
+ENSOTSG00005000009	MT	4879	4949	-1	tRNA-Gln		Mt_tRNA
+ENSOTSG00005000010	MT	4949	5017	1	tRNA-Met		Mt_tRNA
+ENSOTSG00005000011	MT	5018	6067	1	NADH dehydrogenase subunit 2 [Source:NCBI gene (formerly Entrezgene);Acc:803438]	ND2	protein_coding
+ENSOTSG00005000012	MT	6070	6139	1	tRNA-Trp		Mt_tRNA
+ENSOTSG00005000013	MT	6141	6210	-1	tRNA-Ala		Mt_tRNA
+ENSOTSG00005000014	MT	6212	6284	-1	tRNA-Asn		Mt_tRNA
+ENSOTSG00005000015	MT	6316	6382	-1	tRNA-Cys		Mt_tRNA
+ENSOTSG00005000016	MT	6383	6453	-1	tRNA-Tyr		Mt_tRNA
+ENSOTSG00005000017	MT	6455	8005	1	Subunit I of cytochrome c oxidase, which is the terminal member of the mitochondrial inner membrane electron transport chain; one of three mitochondrially-encoded subunits [Ensembl NN prediction with score 89.56%]	COX1	protein_coding
+ENSOTSG00005000018	MT	8006	8076	-1	tRNA-Ser		Mt_tRNA
+ENSOTSG00005000019	MT	8081	8155	1	tRNA-Asp		Mt_tRNA
+ENSOTSG00005000020	MT	8170	8860	1	Subunit II of cytochrome c oxidase, which is the terminal member of the mitochondrial inner membrane electron transport chain; one of three mitochondrially-encoded subunits [Ensembl NN prediction with score 78.29%]	COX2	protein_coding
+ENSOTSG00005000021	MT	8861	8934	1	tRNA-Lys		Mt_tRNA
+ENSOTSG00005000022	MT	8936	9103	1	Subunit 8 of the F0 sector of mitochondrial inner membrane F1-F0 ATP synthase, encoded on the mitochondrial genome; ATP8 and ATP6 mRNAs are not translated in the absence of the F1 sector of ATPase [Ensembl NN prediction with score 99.95%]	ATP8	protein_coding
+ENSOTSG00005000023	MT	9094	9777	1	Mitochondrially encoded subunit a of the F0 sector of mitochondrial F1F0 ATP synthase; translation is specifically activated by Atp22p; ATP6 and ATP8 mRNAs are not translated in the absence of the F1 sector of ATPase [Ensembl NN prediction with score 99.31%]	ATP6	protein_coding
+ENSOTSG00005000024	MT	9777	10562	1	Subunit III of cytochrome c oxidase, which is the terminal member of the mitochondrial inner membrane electron transport chain; one of three mitochondrially-encoded subunits [Ensembl NN prediction with score 99.82%]	COX3	protein_coding
+ENSOTSG00005000025	MT	10562	10631	1	tRNA-Gly		Mt_tRNA
+ENSOTSG00005000026	MT	10632	10980	1	NADH dehydrogenase subunit 3 [Source:NCBI gene (formerly Entrezgene);Acc:803442]	ND3	protein_coding
+ENSOTSG00005000027	MT	10982	11050	1	tRNA-Arg		Mt_tRNA
+ENSOTSG00005000028	MT	11051	11347	1	NADH dehydrogenase subunit 4L [Source:NCBI gene (formerly Entrezgene);Acc:803443]	ND4L	protein_coding
+ENSOTSG00005000029	MT	11341	12721	1	NADH dehydrogenase subunit 4 [Source:NCBI gene (formerly Entrezgene);Acc:803444]	ND4	protein_coding
+ENSOTSG00005000030	MT	12722	12789	1	tRNA-His		Mt_tRNA
+ENSOTSG00005000031	MT	12790	12858	1	tRNA-Ser		Mt_tRNA
+ENSOTSG00005000032	MT	12860	12933	1	tRNA-Leu		Mt_tRNA
+ENSOTSG00005000033	MT	12934	14772	1	NADH dehydrogenase subunit 5 [Source:NCBI gene (formerly Entrezgene);Acc:803447]	ND5	protein_coding
+ENSOTSG00005000034	MT	14769	15290	-1	NADH dehydrogenase subunit 6 [Source:NCBI gene (formerly Entrezgene);Acc:803449]	ND6	protein_coding
+ENSOTSG00005000035	MT	15291	15359	-1	tRNA-Glu		Mt_tRNA
+ENSOTSG00005000036	MT	15363	16503	1	cytochrome b [Source:NCBI gene (formerly Entrezgene);Acc:803448]	CYTB	protein_coding
+ENSOTSG00005000037	MT	16504	16575	1	tRNA-Thr		Mt_tRNA
+ENSOTSG00005000038	MT	16575	16644	-1	tRNA-Pro		Mt_tRNA

@@ -1,0 +1,10 @@
+Gene stable ID	Chromosome/scaffold name	Gene start (bp)	Gene end (bp)	Strand	Gene description	Gene name	Gene type	Gene stable ID	Chromosome/scaffold name	Gene start (bp)	Gene end (bp)	Strand	Gene description	Gene name	Gene type	distance
+ENSSLDG00000000008	MT	3863	3932	1			Mt_tRNA	ENSSLDG00000000009	MT	3932	4002	-1			Mt_tRNA	0
+ENSSLDG00000000009	MT	3932	4002	-1			Mt_tRNA	ENSSLDG00000000010	MT	4002	4070	1			Mt_tRNA	0
+ENSSLDG00000000012	MT	5117	5187	1			Mt_tRNA	ENSSLDG00000000013	MT	5189	5257	-1			Mt_tRNA	2
+ENSSLDG00000000016	MT	5432	5501	-1			Mt_tRNA	ENSSLDG00000000017	MT	5503	7053	1	cytochrome c oxidase subunit I [Source:NCBI gene;Acc:140539]	mt-co1	protein_coding	2
+ENSSLDG00000000017	MT	5503	7053	1	cytochrome c oxidase subunit I [Source:NCBI gene;Acc:140539]	mt-co1	protein_coding	ENSSLDG00000000018	MT	7054	7124	-1			Mt_tRNA	1
+ENSSLDG00000000018	MT	7054	7124	-1			Mt_tRNA	ENSSLDG00000000019	MT	7129	7199	1			Mt_tRNA	5
+ENSSLDG00000000033	MT	11974	13812	1	NADH dehydrogenase subunit 5 [Source:NCBI gene;Acc:140535]	mt-nd5	protein_coding	ENSSLDG00000000034	MT	13809	14330	-1	NADH dehydrogenase subunit 6 [Source:NCBI gene;Acc:140536]	mt-nd6	protein_coding	3
+ENSSLDG00000000035	MT	14332	14400	-1			Mt_tRNA	ENSSLDG00000000036	MT	14405	15545	1	cytochrome b [Source:NCBI gene;Acc:140512]	mt-cyb	protein_coding	5
+ENSSLDG00000000037	MT	15546	15617	1			Mt_tRNA	ENSSLDG00000000038	MT	15617	15687	-1			Mt_tRNA	0

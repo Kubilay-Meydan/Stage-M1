@@ -1,0 +1,38 @@
+Gene stable ID	Chromosome/scaffold name	Gene start (bp)	Gene end (bp)	Strand	Gene description	Gene name	Gene type
+ENSBBBG00000000002	MT	362	428	1			Mt_tRNA
+ENSBBBG00000000003	MT	429	1384	1			Mt_rRNA
+ENSBBBG00000000004	MT	1385	1451	1			Mt_tRNA
+ENSBBBG00000000005	MT	1452	3021	1			Mt_rRNA
+ENSBBBG00000000006	MT	3022	3096	1			Mt_tRNA
+ENSBBBG00000000007	MT	3099	4054	1	mitochondrially encoded NADH:ubiquinone oxidoreductase core subunit 1 [Source:HGNC Symbol;Acc:HGNC:7455]	MT-ND1	protein_coding
+ENSBBBG00000000008	MT	4055	4123	1			Mt_tRNA
+ENSBBBG00000000009	MT	4121	4192	-1			Mt_tRNA
+ENSBBBG00000000010	MT	4195	4263	1			Mt_tRNA
+ENSBBBG00000000011	MT	4264	5305	1	mitochondrially encoded NADH:ubiquinone oxidoreductase core subunit 2 [Source:HGNC Symbol;Acc:HGNC:7456]	MT-ND2	protein_coding
+ENSBBBG00000000012	MT	5306	5372	1			Mt_tRNA
+ENSBBBG00000000013	MT	5374	5442	-1			Mt_tRNA
+ENSBBBG00000000014	MT	5444	5517	-1			Mt_tRNA
+ENSBBBG00000000015	MT	5550	5616	-1			Mt_tRNA
+ENSBBBG00000000016	MT	5617	5684	-1			Mt_tRNA
+ENSBBBG00000000017	MT	5686	7230	1	mitochondrially encoded cytochrome c oxidase I [Source:HGNC Symbol;Acc:HGNC:7419]	MT-CO1	protein_coding
+ENSBBBG00000000018	MT	7228	7300	-1			Mt_tRNA
+ENSBBBG00000000019	MT	7305	7373	1			Mt_tRNA
+ENSBBBG00000000020	MT	7375	8058	1	mitochondrially encoded cytochrome c oxidase II [Source:HGNC Symbol;Acc:HGNC:7421]	MT-CO2	protein_coding
+ENSBBBG00000000021	MT	8062	8128	1			Mt_tRNA
+ENSBBBG00000000022	MT	8130	8330	1	mitochondrially encoded ATP synthase membrane subunit 8 [Source:HGNC Symbol;Acc:HGNC:7415]		protein_coding
+ENSBBBG00000000023	MT	8291	8971	1			protein_coding
+ENSBBBG00000000024	MT	8971	9751	1	mitochondrially encoded cytochrome c oxidase III [Source:HGNC Symbol;Acc:HGNC:7422]	MT-CO3	protein_coding
+ENSBBBG00000000025	MT	9755	9823	1			Mt_tRNA
+ENSBBBG00000000026	MT	9824	10170	1	mitochondrially encoded NADH:ubiquinone oxidoreductase core subunit 3 [Source:HGNC Symbol;Acc:HGNC:7458]	MT-ND3	protein_coding
+ENSBBBG00000000027	MT	10171	10239	1			Mt_tRNA
+ENSBBBG00000000028	MT	10240	10536	1			protein_coding
+ENSBBBG00000000029	MT	10530	11907	1	mitochondrially encoded NADH:ubiquinone oxidoreductase core subunit 4 [Source:HGNC Symbol;Acc:HGNC:7459]	MT-ND4	protein_coding
+ENSBBBG00000000030	MT	11908	11977	1			Mt_tRNA
+ENSBBBG00000000031	MT	11978	12037	1			Mt_tRNA
+ENSBBBG00000000032	MT	12039	12108	1			Mt_tRNA
+ENSBBBG00000000033	MT	12109	13929	1	mitochondrially encoded NADH:ubiquinone oxidoreductase core subunit 5 [Source:HGNC Symbol;Acc:HGNC:7461]	MT-ND5	protein_coding
+ENSBBBG00000000034	MT	13913	14440	-1	mitochondrially encoded NADH:ubiquinone oxidoreductase core subunit 6 [Source:HGNC Symbol;Acc:HGNC:7462]	MT-ND6	protein_coding
+ENSBBBG00000000035	MT	14441	14509	-1			Mt_tRNA
+ENSBBBG00000000036	MT	14514	15653	1	mitochondrially encoded cytochrome b [Source:HGNC Symbol;Acc:HGNC:7427]	MT-CYB	protein_coding
+ENSBBBG00000000037	MT	15658	15726	1			Mt_tRNA
+ENSBBBG00000000038	MT	15726	15791	-1			Mt_tRNA

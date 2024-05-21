@@ -1,0 +1,10 @@
+Gene stable ID	Chromosome/scaffold name	Gene start (bp)	Gene end (bp)	Strand	Gene description	Gene name	Gene type	Gene stable ID	Chromosome/scaffold name	Gene start (bp)	Gene end (bp)	Strand	Gene description	Gene name	Gene type	distance
+ENSRROG00000000007	MT	3688	3757	1			Mt_tRNA	ENSRROG00000000008	MT	3755	3826	-1			Mt_tRNA	2
+ENSRROG00000000008	MT	3755	3826	-1			Mt_tRNA	ENSRROG00000000009	MT	3828	3895	1			Mt_tRNA	2
+ENSRROG00000000011	MT	4938	5005	1			Mt_tRNA	ENSRROG00000000012	MT	5014	5082	-1			Mt_tRNA	9
+ENSRROG00000000015	MT	5257	5342	-1			Mt_tRNA	ENSRROG00000000016	MT	5323	6867	1	cytochrome c oxidase subunit I [Source:NCBI gene;Acc:4171536]	COX1	protein_coding	19
+ENSRROG00000000016	MT	5323	6867	1	cytochrome c oxidase subunit I [Source:NCBI gene;Acc:4171536]	COX1	protein_coding	ENSRROG00000000017	MT	6865	6933	-1			Mt_tRNA	2
+ENSRROG00000000017	MT	6865	6933	-1			Mt_tRNA	ENSRROG00000000018	MT	6937	7004	1			Mt_tRNA	4
+ENSRROG00000000032	MT	11780	13591	1	NADH dehydrogenase subunit 5 [Source:NCBI gene;Acc:4171544]	ND5	protein_coding	ENSRROG00000000033	MT	13592	14116	-1	NADH dehydrogenase subunit 6 [Source:NCBI gene;Acc:4171545]	ND6	protein_coding	1
+ENSRROG00000000034	MT	14117	14185	-1			Mt_tRNA	ENSRROG00000000035	MT	14190	15324	1	cytochrome b [Source:NCBI gene;Acc:4171546]	CYTB	protein_coding	5
+ENSRROG00000000036	MT	15331	15395	1			Mt_tRNA	ENSRROG00000000037	MT	15398	15464	-1			Mt_tRNA	3

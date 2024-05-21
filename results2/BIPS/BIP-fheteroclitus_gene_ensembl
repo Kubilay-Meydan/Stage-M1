@@ -1,0 +1,10 @@
+Gene stable ID	Chromosome/scaffold name	Gene start (bp)	Gene end (bp)	Strand	Gene description	Gene name	Gene type	Gene stable ID	Chromosome/scaffold name	Gene start (bp)	Gene end (bp)	Strand	Gene description	Gene name	Gene type	distance
+ENSFHEG00000000008	MT	3824	3893	1			Mt_tRNA	ENSFHEG00000000009	MT	3893	3963	-1			Mt_tRNA	0
+ENSFHEG00000000009	MT	3893	3963	-1			Mt_tRNA	ENSFHEG00000000010	MT	3963	4031	1			Mt_tRNA	0
+ENSFHEG00000000012	MT	5077	5148	1			Mt_tRNA	ENSFHEG00000000013	MT	5151	5219	-1			Mt_tRNA	3
+ENSFHEG00000000016	MT	5397	5466	-1			Mt_tRNA	ENSFHEG00000000017	MT	5474	7015	1	cytochrome c oxidase subunit I [Source:NCBI gene;Acc:7668423]	COX1	protein_coding	8
+ENSFHEG00000000017	MT	5474	7015	1	cytochrome c oxidase subunit I [Source:NCBI gene;Acc:7668423]	COX1	protein_coding	ENSFHEG00000000018	MT	7025	7096	-1			Mt_tRNA	10
+ENSFHEG00000000018	MT	7025	7096	-1			Mt_tRNA	ENSFHEG00000000019	MT	7100	7170	1			Mt_tRNA	4
+ENSFHEG00000000033	MT	11951	13789	1	NADH dehydrogenase subunit 5 [Source:NCBI gene;Acc:7668431]	ND5	protein_coding	ENSFHEG00000000034	MT	13786	14307	-1	NADH dehydrogenase subunit 6 [Source:NCBI gene;Acc:7668432]	ND6	protein_coding	3
+ENSFHEG00000000035	MT	14308	14375	-1			Mt_tRNA	ENSFHEG00000000036	MT	14379	15518	1	cytochrome b [Source:NCBI gene;Acc:7668433]	CYTB	protein_coding	4
+ENSFHEG00000000037	MT	15520	15592	1			Mt_tRNA	ENSFHEG00000000038	MT	15592	15661	-1			Mt_tRNA	0
