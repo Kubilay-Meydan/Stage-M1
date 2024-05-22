@@ -4,7 +4,6 @@ import matplotlib.pyplot as plt
 import re
 
 # Couleurs pour les camemberts
-
 pie_chart_colors = [
     "#BF7BA7ff",  # magenta-ciel
     "#F5C9C2ff",  # rose-thé
@@ -50,7 +49,7 @@ def histogramme_ratio():
     plt.hist(ratios, bins=10, color="#BF7BA7ff", edgecolor='white')
     plt.xlabel("Ratio du nombre de BIPs par rapport au nombre de gènes de l'espèce")
     plt.ylabel('Fréquence')
-    plt.title('Histogramme du nombre de BIPs par rapport au nombre de gènes')
+    plt.title('Histogramme du nombre de BIPs par rapport au nombre de gènes'.replace(' genes', ''))
     plt.savefig("figures/ratio_genes_bips/histogramme_ratio.png")
 
 def create_gene_type_pie_charts():
@@ -103,7 +102,7 @@ def create_gene_type_pie_charts():
         plt.figure(figsize=(15, 15))
         wedges, _ = plt.pie(sizes, startangle=140, colors=pie_chart_colors[:len(sizes)])
 
-        plt.title(f'Combinaisons de types de gènes dans les BIPs de {species_name}')
+        plt.title(f'Combinaisons de types de gènes dans les BIPs de {species_name}'.replace(' genes', ''))
         plt.axis('equal')  # Le rapport d'aspect égal assure que le camembert est dessiné en cercle.
 
         # Ajouter une légende ancrée dans le coin droit
@@ -113,7 +112,6 @@ def create_gene_type_pie_charts():
         output_path = os.path.join(output_folder, f'{species_name}_gene_type_pie_chart.png')
         plt.savefig(output_path)
         plt.close()
-
 
 def natural_sort_key(s):
     """ Sorts strings with numeric parts in a way that humans expect.
@@ -184,7 +182,7 @@ def create_chromosome_histograms():
 
         plt.xlabel('Chromosome')
         plt.ylabel('Nombre de BIPs / Genes')
-        plt.title(f'Nombre de BIPs et Genes par chromosome chez {species_name}')
+        plt.title(f'Nombre de BIPs et Genes par chromosome chez {species_name}'.replace(' genes', ''))
 
         # Ajouter la légende
         plt.legend()
@@ -224,14 +222,15 @@ def create_distance_histograms():
 
         plt.xlabel('Taille des BIPs (en pb)')
         plt.ylabel('Fréquence')
-        plt.title(f'Taille des BIPs chez {species_name}')
+        plt.title(f'Taille des BIPs chez {species_name}'.replace(' genes', ''))
 
         # Enregistrer l'histogramme en tant que fichier PNG
         output_path = os.path.join(output_folder, f'{species_name}_distance_histogram.png')
         plt.savefig(output_path, bbox_inches='tight')
         plt.close()
 
-#create_distance_histograms()
+# Execute the functions
+create_distance_histograms()
 #histogramme_ratio()
-#create_gene_type_pie_charts()
+create_gene_type_pie_charts()
 create_chromosome_histograms()
