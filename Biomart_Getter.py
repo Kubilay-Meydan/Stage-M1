@@ -1,44 +1,62 @@
-from biomart import BiomartServer
 import csv
 import pandas as pd
+from biomart import BiomartServer
 
-
-def getCSV(serv="http://www.ensembl.org/biomart", dataset='hsapiens_gene_ensembl', verbose=False):
+def get_human_mouse_orthologs(serv="http://www.ensembl.org/biomart", dataset='hsapiens_gene_ensembl', verbose=False):
     server = BiomartServer(serv)
-    genes = server.datasets[dataset]
-    server.verbose = verbose 
-    Genes111datasets = []
-    for i in server.datasets:
-        if i.endswith("gene_ensembl"):
-            Genes111datasets.append(i)
-    print(len(Genes111datasets))  # 229 
-    print(server.datasets["hsapiens_gene_ensembl"])
+    server.verbose = verbose
+    human_genes = server.datasets[dataset]
 
     attributes = [
         'ensembl_gene_id',
-        'chromosome_name',
-        'start_position',
-        'end_position',
-        'strand',
-        'description',
-        'external_gene_name',
-        'gene_biotype'
+        'external_gene_name'
     ]
 
-    response = genes.search({
+    response = human_genes.search({
         'attributes': attributes
-    }, header=1)  # `header=1` to include the column headers
-    return response
+    }, header=1)
+    
+    human_gene_list = []
+    for line in response.iter_lines():
+        decoded_line = line.decode('utf-8')
+        if not decoded_line.startswith('#'):
+            ensembl_gene_id, gene_name = decoded_line.split("\t")
+            human_gene_list.append((ensembl_gene_id, gene_name))
+    
+    return human_gene_list
 
-def write_csv(response, destination):
-    with open(destination, 'w', newline='') as csvfile:
-        writer = csv.writer(csvfile, delimiter='\t')
+def get_mouse_orthologs(human_gene_list, serv="http://www.ensembl.org/biomart", dataset='mmusculus_gene_ensembl', verbose=False):
+    server = BiomartServer(serv)
+    server.verbose = verbose
+    mouse_genes = server.datasets[dataset]
+    
+    orthologs = []
+    
+    for human_gene_id, human_gene_name in human_gene_list:
+        response = mouse_genes.search({
+            'filters': {'with_homolog': '1', 'with_human_ortholog': human_gene_id},
+            'attributes': ['ensembl_gene_id', 'external_gene_name']
+        }, header=1)
+        
         for line in response.iter_lines():
             decoded_line = line.decode('utf-8')
-            writer.writerow(decoded_line.split("\t"))
+            if not decoded_line.startswith('#'):
+                mouse_gene_id, mouse_gene_name = decoded_line.split("\t")
+                orthologs.append((human_gene_id, human_gene_name, mouse_gene_id, mouse_gene_name))
+    
+    return orthologs
 
-getCSV(dataset="abrachyrhynchus_gene_ensembl", verbose=True)
+def write_orthologs_to_csv(orthologs, destination):
+    with open(destination, 'w', newline='') as csvfile:
+        writer = csv.writer(csvfile, delimiter='\t')
+        writer.writerow(['Human Ensembl Gene ID', 'Human Gene Name', 'Mouse Ensembl Gene ID', 'Mouse Gene Name'])
+        for ortholog in orthologs:
+            writer.writerow(ortholog)
 
+# Example usage:
+human_gene_list = get_human_mouse_orthologs(verbose=True)
+mouse_orthologs = get_mouse_orthologs(human_gene_list, verbose=True)
+write_orthologs_to_csv(mouse_orthologs, 'human_mouse_orthologs.csv')
 
 def filter_chromosome(csv_input, csv_output):
     data = pd.read_csv(csv_input, delimiter='\t')
@@ -50,5 +68,5 @@ def filter_chromosome(csv_input, csv_output):
 
     filtered_data.to_csv(csv_output, index=False, sep='\t')
 
-# Example usage:
-# filter_chromosome("abrachyrhynchus_gene_ensembl.csv", 'clean.csv')
+# Example usage of filter_chromosome:
+# filter_chromosome("human_mouse_orthologs.csv", 'filtered_orthologs.csv')
