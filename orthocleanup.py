@@ -27,5 +27,5 @@ def clean_csv_files(folder_path):
             filtered_df.to_csv(file_path, index=False)
 
 # Usage example
-folder_path = 'orthologs'  # Replace with the path to your folder
+folder_path = 'orthologs2'  # Replace with the path to your folder
 clean_csv_files(folder_path)
