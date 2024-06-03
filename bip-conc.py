@@ -1,7 +1,7 @@
 import os
 import pandas as pd
 
-
+'''
 bip_folder = 'results/BIPS'
 mapping_csv = 'summary+phylo.csv'
 
@@ -25,4 +25,19 @@ for file_name in os.listdir(bip_folder):
 output_csv = 'conc.csv'
 concatenated_df.to_csv(output_csv, index=False)
 
-print(f"Concatenated CSV file saved to {output_csv}")
+'''
+# Load the CSV file
+df = pd.read_csv('conc.csv')
+
+# Remove ' genes' from the end of each value in the 'Species Name' column
+df['Species Name'] = df['Species Name'].str.replace(' genes', '')
+
+# Add 'BIP ' before each value in the 'BIP number' column
+df['BIP number'] = 'BIP ' + df['BIP number'].astype(str)
+
+# Save the modified dataframe back to a CSV file
+df.to_csv('modified_file.csv', index=False)
+
+print("Modifications complete. Saved to 'modified_file.csv'")
+
+#print(f"Concatenated CSV file saved to {output_csv}")
