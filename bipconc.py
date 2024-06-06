@@ -75,12 +75,12 @@ def transform_csv(input_csv_path, output_txt_path, summary_csv_path, bip_folder)
         new_df.loc[i] = new_row
 
     # Save the new DataFrame as a TXT file with tab as separator
-    new_df.to_csv(output_txt_path, sep='\t', index=False)
+    new_df.to_csv(output_txt_path, sep=',', index=False)
     print(f"Output TXT saved to {output_txt_path}")
 
 # Usage example:
-input_csv_path = 'BIP orthologs/Mice/Combined_Mouse_BIP_numbers.csv'  # Path of your input CSV file
-output_txt_path = 'Mice-BIP_Full.txt'  # Path where you want to save the output TXT file
+input_csv_path = 'BIP orthologs/Cattle/Combined_Cow_BIP_numbers.csv'  # Path of your input CSV file
+output_txt_path = 'Cow-BIP_Full.txt'  # Path where you want to save the output TXT file
 summary_csv_path = 'summary+phylo.csv'  # Path to your summary CSV file
 bip_folder = 'results/BIPS'  # Folder containing the bip files
 

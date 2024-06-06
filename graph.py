@@ -1,7 +1,6 @@
 import os
 import pandas as pd
 import matplotlib.pyplot as plt
-import re
 
 # Couleurs pour les camemberts
 pie_chart_colors = [

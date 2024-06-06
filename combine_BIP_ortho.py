@@ -2,8 +2,8 @@ import os
 import pandas as pd
 
 # Specify the folder containing the CSV files and the base species
-folder_path = 'BIP orthologs/Primates'  # Replace with the actual path to your folder
-base_species = 'Human'   # Replace with the actual base species name
+folder_path = 'BIP orthologs/Cattle'  # Replace with the actual path to your folder
+base_species = 'Cow'   # Replace with the actual base species name
 
 # List to hold all dataframes
 dataframes = []

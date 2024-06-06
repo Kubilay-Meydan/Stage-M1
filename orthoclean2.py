@@ -28,9 +28,9 @@ def process_csv(file_path):
 # Function to process all CSV files in a directory
 def process_all_csvs(directory):
     for file_name in os.listdir(directory):
-        if file_name.endswith(".txt"):
+        if file_name.endswith(""):
             file_path = os.path.join(directory, file_name)
             process_csv(file_path)
 
 # Example usage: Process all CSV files in the 'csv_files' directory
-process_all_csvs('orthologs2')
+process_all_csvs('z')

@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Read the CSV file
-input_file = "results/BIPS/BIP-ggallus_gene_ensembl"
+input_file = "results/BIPS/BIP-ccricetus_gene_ensembl"
 df = pd.read_csv(input_file)
 
 # Get unique values from both columns

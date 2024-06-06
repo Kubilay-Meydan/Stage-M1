@@ -4,7 +4,7 @@ def clean_csv_files(folder_path):
     # Iterate through each file in the folder
     for filename in os.listdir(folder_path):
         # Check if the file is a CSV
-        if filename.endswith(".txt"):
+        if filename.endswith(""):
             file_path = os.path.join(folder_path, filename)
             # Read the CSV file
             df = pd.read_csv(file_path)
@@ -27,5 +27,5 @@ def clean_csv_files(folder_path):
             filtered_df.to_csv(file_path, index=False)
 
 # Usage example
-folder_path = 'orthologs2'  # Replace with the path to your folder
+folder_path = 'z'  # Replace with the path to your folder
 clean_csv_files(folder_path)
