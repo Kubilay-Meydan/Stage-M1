@@ -54,11 +54,11 @@ def process_files(ortholog_file, base_bip_file, compared_bip_file, base_species_
     matching_df.to_csv(output_file, index=False)
 
 # Example usage
-ortholog_file = 'z\modified_Cow-Sheep-orthologs.txt'
+ortholog_file = 'hamster stuff\modified_Cow_bison_orthologs.txt'
 base_bip_file = 'results/BIPS/BIP-btaurus_gene_ensembl'
-compared_bip_file = 'sheep stuff\sheep_bip.csv'
+compared_bip_file = 'results\BIPS\BIP-bbison_gene_ensembl'
 base_species_prefix = 'Cow'  # Change to the base species prefix
-compared_species_prefix = 'Sheep'  # Change to the compared species prefix
-output_file = 'Cow_Sheep_pairs.csv'
+compared_species_prefix = 'American bison'  # Change to the compared species prefix
+output_file = 'cow_Bison_pairs.csv'
 
 process_files(ortholog_file, base_bip_file, compared_bip_file, base_species_prefix, compared_species_prefix, output_file)

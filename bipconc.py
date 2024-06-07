@@ -80,7 +80,7 @@ def transform_csv(input_csv_path, output_txt_path, summary_csv_path, bip_folder)
 
 # Usage example:
 input_csv_path = 'BIP orthologs/Cattle/Combined_Cow_BIP_numbers.csv'  # Path of your input CSV file
-output_txt_path = 'Cow-BIP_Full.txt'  # Path where you want to save the output TXT file
+output_txt_path = 'Cow-BIP_Full.csv'  # Path where you want to save the output TXT file
 summary_csv_path = 'summary+phylo.csv'  # Path to your summary CSV file
 bip_folder = 'results/BIPS'  # Folder containing the bip files
 

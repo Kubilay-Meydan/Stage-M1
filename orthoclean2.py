@@ -33,4 +33,4 @@ def process_all_csvs(directory):
             process_csv(file_path)
 
 # Example usage: Process all CSV files in the 'csv_files' directory
-process_all_csvs('z')
+process_all_csvs('hamster stuff')

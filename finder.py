@@ -3,7 +3,7 @@ import pandas as pd
 def find_potential_close_BIPs(csv_input, csv_output):
     try:
         # Load data
-        data = pd.read_csv(csv_input, sep=',')
+        data = pd.read_csv(csv_input, sep='\t')
         data.sort_values(by=['Chromosome/scaffold name', 'Gene start (bp)'], inplace=True)
 
         results = []
@@ -37,4 +37,4 @@ def find_potential_close_BIPs(csv_input, csv_output):
         print(f"An error occurred: {e}")
 
 # Example usage
-find_potential_close_BIPs("sheep_genes_genes.txt", "sheep_bip.csv")
+find_potential_close_BIPs("results/bbison_gene_ensembl", "BIP-bbison_gene_ensembl")

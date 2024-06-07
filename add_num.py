@@ -19,5 +19,5 @@ def add_bip_number_column(folder_path):
         print(f'Processed {file}')
 
 # Example usage
-folder_path = "sheep stuff"  # Replace with your folder path
+folder_path = "hamster stuff"  # Replace with your folder path
 add_bip_number_column(folder_path)
